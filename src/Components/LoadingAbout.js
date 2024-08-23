@@ -46,15 +46,14 @@ const LoadingAbout = () => {
       <div className="container-fluid">
         <div className="row aboutt p-5">
           <div className="col-sm-6 pt-3">
-            <img 
-            className='img1'
+            <img
+              className="img2"
               src="https://tunstelecom.com.ng/wp-content/uploads/2024/08/IMG_20240809_114901_386-scaled.jpg"
               alt="profile"
             />
           </div>
           <div className="col-sm-6 pt-3">
             <p>
-              {" "}
               Hello! I’m Bankole Azeez. Web designer from Osun State, Nigeria. I
               have rich experience in website design (Full-stack) and building,
               am a life longer learner, Also. I am good at wordpress. I will
