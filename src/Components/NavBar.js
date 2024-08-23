@@ -28,7 +28,7 @@ const NavBar = () => {
             <ul className="navbar-nav">
               <hr />
               <Link to="/">
-                <li className="nav-item">HOME</li>
+                <li className="nav-item"><a className='nav-link'>HOME</a></li>
               </Link>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
