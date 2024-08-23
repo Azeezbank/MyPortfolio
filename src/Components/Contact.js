@@ -149,7 +149,8 @@ const Contact = () => {
           </div>
         </div>
         <div className="container text-start bg-dark p-3">
-          <div className="form mt-3">
+          <form>
+           <div className="form mt-3">
             <div className="row">
               <div className="col-sm-6">
                 <input
@@ -192,6 +193,7 @@ const Contact = () => {
               <div className="col-8"></div>
             </div>
           </div>
+          </form>
         </div>
       </div>
       <LetsTalk />

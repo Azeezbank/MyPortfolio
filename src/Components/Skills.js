@@ -76,7 +76,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <p>HTML</p>
+                <p>User interface</p>
               </div>
               <div className="col-sm-6">
                 <div className="row text-start">
@@ -173,7 +173,7 @@ const Skills = () => {
                       85%
                     </div>
                   </div>
-                  <p>Git</p>
+                  <p>Version controller</p>
                 </div>
               </div>
             </div>

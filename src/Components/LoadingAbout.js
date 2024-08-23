@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useInView } from 'react-intersection-observer';
 
 
 // about page section
@@ -6,13 +7,25 @@ const LoadingAbout = () => {
   const [Years, setYears] = useState(0);
 
   useEffect(() => {
-    if (Years < 4) {
+    if (Years < 100) {
       const timer = setTimeout(() => {
         setYears(Years + 1);
-      }, 1000);
+      }, 600);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [Years]);
+
+
+  const [hornor, setHornor] = useState(0);
+
+  useEffect(() => {
+    if (hornor < 20) {
+      const many = setTimeout(() => {
+        setHornor(hornor + 1);
+      }, 1000);
+      return () => clearTimeout(many);
+    }
+  }, [hornor]);
   return (
     <>
       <div className="scrow">
@@ -33,8 +46,8 @@ const LoadingAbout = () => {
       <div className="container-fluid">
         <div className="row aboutt p-5">
           <div className="col-sm-6 pt-3">
-            <img
-              className="img2"
+            <img 
+            className='img1'
               src="https://tunstelecom.com.ng/wp-content/uploads/2024/08/IMG_20240809_114901_386-scaled.jpg"
               alt="profile"
             />
@@ -68,15 +81,15 @@ const LoadingAbout = () => {
 
             <div className="row">
               <div className="col-sm-4 pt-4">
-                <h3>{Years}+</h3>
+                <h3>4+</h3>
                 <p>Years of experience</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3>0k</h3>
+                <h3>{Years}</h3>
                 <p>Successful projects</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3>20+</h3>
+                <h3>{hornor}+</h3>
                 <p>Hornor and awards</p>
               </div>
             </div>
