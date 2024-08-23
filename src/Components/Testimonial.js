@@ -26,7 +26,7 @@ const Testimonial = () => {
         </marquee>
       </div>
 
-      <div className="container-fluid bg-light pt-5">
+      <div className="container bg-light pt-5 carow">
         <div
           id="demo"
           className="carousel slide text-center"
@@ -58,18 +58,16 @@ const Testimonial = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbLYKsZlulyn5RtEUgDvxnt-sbu8ek55tzQ&s"
                 alt="Los"
-                className="d-block"
-                style={{ width: "100%" }}
+                className="img2"
+                // style={{ width: "100%" }}
               />
               <div className="carousel-caption">
-                <img
+                <img className="img"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbBMwRJfFeRL23d-4MB-yq_6NyJFUw7zprYQ&s"
-                  width="200px"
-                  style={{ borderRadius: "50%" }}
                 />
-                <h3>IDRIS ABIODUN</h3>
-                <h4>★★★★★</h4>
-                <p style={{ fontSize: "1.2rem" }}>
+                <h4 className="person">IDRIS ABIODUN</h4>
+                <h4 className="star">★★★★★</h4>
+                <p className="comment d-block">
                   Working with Bankky on web development was an absolute
                   pleasure
                 </p>
@@ -79,18 +77,16 @@ const Testimonial = () => {
             <div className="carousel-item">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbLYKsZlulyn5RtEUgDvxnt-sbu8ek55tzQ&s"
-                className="d-block"
-                style={{ width: "100%" }}
+                className="img2 d-block"
+                // style={{ width: "100%" }}
               />
               <div className="carousel-caption">
-                <img
+                <img className="img"
                   src="https://arabiclanguagecentre.com/wp-content/uploads/2022/10/Testimonial-Img-04-279x300-1.png"
-                  width="200px"
-                  style={{ borderRadius: "50%" }}
                 />
-                <h3 style={{ fontWeight: "border" }}>QUADRI AYOMIDE</h3>
-                <h4>★★★★☆</h4>
-                <p style={{ fontSize: "1.2rem" }}>
+                <h3 className="person" style={{ fontWeight: "border" }}>QUADRI AYOMIDE</h3>
+                <h4 className="star">★★★★☆</h4>
+                <p className="comment">
                   Bankole's full-stack skills transformed our project.
                 </p>
                 <blockquote>— Web manager</blockquote>
@@ -100,18 +96,16 @@ const Testimonial = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbLYKsZlulyn5RtEUgDvxnt-sbu8ek55tzQ&s"
                 alt="Los"
-                className="d-block"
-                style={{ width: "100%" }}
+                className="img2  d-block"
+                // style={{ width: "100%" }}
               />
               <div className="carousel-caption">
-                <img
-                  src="https://hotprintdesign.com/wp-content/uploads/2019/02/testimonial-avatar-3.jpg"
-                  width="200px"
-                  style={{ borderRadius: "50%" }}
+                <img className="img"
+                  src="https://hotprintdesign.com/wp-content/uploads/2019/02/testimonial-avatar-3.jpg" 
                 />
-                <h3>Jelilat Olajumonke</h3>
-                <h4>★★★★☆</h4>
-                <p style={{ fontSize: "1.2rem" }}>
+                <h3 className="person text-uppercase">Jelilat Olajumonke</h3>
+                <h4 className="star">★★★★☆</h4>
+                <p className="comment">
                   Bankole is a brilliant full-stack developer.{" "}
                 </p>
                 <blockquote>— Bussiness Owner</blockquote>

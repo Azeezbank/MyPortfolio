@@ -56,3 +56,19 @@
 .aboutt {
   background-color: #cfc19d;
 }
+
+
+/* carousel control */
+.img {width: 200px; border-radius: 50%;}
+.comment {font-size: 1.2rem;}
+
+.img2 {width:100%;}
+
+/* carousel small screens */
+@media (max-width: 800px) {
+  .img {width: 80px;}
+  .person {font-size: medium;}
+  .star {font-size: 15px;}
+  .comment {font-size: 15px;}
+  blockquote {font-size: smaller;}
+}
