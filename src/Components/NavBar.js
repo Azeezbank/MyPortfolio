@@ -27,7 +27,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navContent">
             <ul className="navbar-nav">
               <hr />
-              <Link to="/" style={{textDecoration: non}}>
+              <Link to="/" style={{textDecoration: none}}>
                 <li className="nav-item"><a className='nav-link'>HOME</a></li>
               </Link>
               <li className="nav-item">
