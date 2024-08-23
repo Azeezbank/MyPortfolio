@@ -65,10 +65,10 @@
 .img2 {width:100%;}
 
 /* carousel small screens */
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .img {width: 40px;}
-  .person {font-size: medium;}
+  .person {font-size: 15px;}
   .star {font-size: 8px;}
-  .comment {font-size: 8px;}
-  blockquote {font-size: smaller;}
+  .comment {font-size: 12px;}
+  blockquote {font-size: 10px;}
 }
