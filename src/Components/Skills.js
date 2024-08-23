@@ -160,7 +160,7 @@ const Skills = () => {
                     </div>
                     <div className="col-sm-8 pt-3">
                       <h3>V.Control</h3>
-                      <p>Version controller</p>
+                      <p>Git, GitHub</p>
                     </div>
                   </div>
                   <h1>85%</h1>
@@ -173,7 +173,7 @@ const Skills = () => {
                       85%
                     </div>
                   </div>
-                  <p>Git</p>
+                  <p>Version controller</p>
                 </div>
               </div>
             </div>
