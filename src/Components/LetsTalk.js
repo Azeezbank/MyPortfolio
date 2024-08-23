@@ -37,7 +37,7 @@ const LetsTalk = () => {
             id="talk"
             className="btn rounded p-3 m-4 text-light shadow-small bg-secondary"
           >
-            Lst's Talk
+            Lst's Talk <i className='bi bi-chevron-double-right text-light'></i>
           </button>
         </Link>
       </div>
