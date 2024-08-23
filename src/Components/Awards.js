@@ -136,7 +136,7 @@ const Awards = () => {
             </div>
           </div>
 
-          <div className="row mt-4">
+          <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2024 - Present</p>
             </div>
