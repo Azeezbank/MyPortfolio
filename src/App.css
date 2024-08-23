@@ -18,6 +18,10 @@
   height: 70px;
 }
 
+a {
+  text-decoration: none
+}
+
 .scrowI {
   animation: scroll 10s linear-infinite;
   display: inline-block;
