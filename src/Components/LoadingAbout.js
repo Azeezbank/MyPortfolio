@@ -19,7 +19,7 @@ const LoadingAbout = () => {
   useEffect(() => {
     if (honor < 20) {
       const many = setTimeout(() => {
-        setHonor(hornor + 1);
+        setHonor(honor + 1);
       }, 800);
       return () => clearTimeout(many);
     }
