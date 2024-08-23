@@ -21,18 +21,6 @@ const Awards = () => {
             <span className="aboutB span">AWARDS</span>
             <span className="aboutW span">AWARDS</span>
             <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
           </h1>
         </marquee>
       </div>
