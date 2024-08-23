@@ -34,7 +34,7 @@ const LoadingAbout = () => {
         <div className="row aboutt p-5">
           <div className="col-sm-6 pt-3">
             <img
-              className="img2"
+              className="img1"
               src="https://tunstelecom.com.ng/wp-content/uploads/2024/08/IMG_20240809_114901_386-scaled.jpg"
               alt="profile"
             />
