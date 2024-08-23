@@ -6,13 +6,24 @@ const LoadingAbout = () => {
   const [Years, setYears] = useState(0);
 
   useEffect(() => {
-    if (Years < 4) {
+    if (Years < 100) {
       const timer = setTimeout(() => {
         setYears(Years + 1);
-      }, 1000);
+      }, 600);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [Years]);
+
+  const [honor, setHonor] = useState(0);
+
+  useEffect(() => {
+    if (honor < 20) {
+      const many = setTimeout(() => {
+        setHonor(hornor + 1);
+      }, 800);
+      return () => clearTimeout(many);
+    }
+  }, [honor]);
   return (
     <>
       <div className="scrow">
@@ -68,15 +79,15 @@ const LoadingAbout = () => {
 
             <div className="row">
               <div className="col-sm-4 pt-4">
-                <h3>{Years}+</h3>
+                <h3>4+</h3>
                 <p>Years of experience</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3>0k</h3>
+                <h3>{Years}+</h3>
                 <p>Successful projects</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3>20+</h3>
+                <h3>{honor}+</h3>
                 <p>Hornor and awards</p>
               </div>
             </div>
