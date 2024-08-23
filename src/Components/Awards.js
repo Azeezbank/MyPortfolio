@@ -145,6 +145,15 @@ const Awards = () => {
               <p>Power Learn Project</p>
             </div>
           </div>
+            <div className='row mt-4'>
+              <div className='col-sm-6 pt-2'>
+                <p className='text-primary'>2017 - 2023</p>
+              </div>
+              <div className='col-sm-6'>
+                <h5>Bachelor degree</h5>
+                <p>FUOYE</p>
+              </div>
+            </div>
         </div>
 
         <h2 id="experience" className="fw-bold p-5 pb-1">
