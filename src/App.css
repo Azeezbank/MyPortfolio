@@ -67,8 +67,8 @@
 /* carousel small screens */
 @media (max-width: 750px) {
   .img {width: 40px;}
-  .person {font-size: 15px;}
+  .person {font-size: 10px;}
   .star {font-size: 8px;}
-  .comment {font-size: 12px;}
+  .comment {font-size: 11px;}
   blockquote {font-size: 10px;}
 }
