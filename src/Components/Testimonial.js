@@ -19,9 +19,6 @@ const Testimonial = () => {
             <span className="aboutW span">TESTIMONIAL</span>
             <span className="aboutB span">TESTIMONIAL</span>
             <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
-            <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
           </h2>
         </marquee>
       </div>
