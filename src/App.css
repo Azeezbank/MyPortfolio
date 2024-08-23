@@ -1,4 +1,9 @@
-* {box-sizing: border-box; padding: 0px; margin:}
+/* Control the default padding, marging and border-box */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: ;
+}
 /* .first {background-color: #c0c7d0}
 .wrap {padding: 0px 10px}
 .loveI {width: 100%; margin-top: -200px;}
@@ -7,10 +12,17 @@
 .text { text-align: right; margin-top: -100px; justify-items: right} */
 
 
+/* text animation */
+.scrow {
+  background-color: black;
+  height: 70px;
+}
 
-.scrow {background-color: black; height: 70px;}
-
-.scrowI {animation: scroll 10s linear-infinite; display: inline-block; padding: 15px 0px}
+.scrowI {
+  animation: scroll 10s linear-infinite;
+  display: inline-block;
+  padding: 15px 0px;
+}
 
 @keyframes scroll {
   from {
@@ -21,13 +33,26 @@
   }
 }
 
-.aboutW {color: transparent; -webkit-text-stroke: 1px white; font-size: 2rem; font-weight: bold}
-.aboutB {color: white; font-size: 2rem; font-size: bold}
-.span {padding: 0px 10px}
-
+/* animated text */
+.aboutW {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.aboutB {
+  color: white;
+  font-size: 2rem;
+  font-size: bold;
+}
+.span {
+  padding: 0px 10px;
+}
 
 .img2 {
   width: 60%;
 }
 
-.aboutt {background-color: #cfc19d}
+.aboutt {
+  background-color: #cfc19d;
+}
