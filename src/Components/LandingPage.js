@@ -18,7 +18,7 @@ const LandingPage = () => {
         </p>
         <div className="flex">
           <button className="btn bg-danger text-light p-3 m-2">
-            <i className'bi bi-plus bi-linkedin'> Follow </i>
+            <i className'bi bi-plus'></i> <i className='bi bi-linkedin'></i> Follow
           </button>
           <button className="btn bg-dark text-light p-3">Hire Me..</button>
         </div>
