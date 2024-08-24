@@ -161,7 +161,7 @@ const Awards = () => {
                   <p>
                     Developed complex web applications using modern frameworks
                     and best practices. Collaborated with cross-functional teams
-                    to deliver high-quality, user-centric soluti
+                    to deliver high-quality, user-centric solution.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -208,7 +208,7 @@ const Awards = () => {
                     databases that power robust applications. My
                     responsibilities included creating efficient database
                     schemas, writing optimized SQL queries, and ensuring data
-                    integrity across various systems
+                    integrity across various systems.
                   </p>
                 </div>
                 <div className="card-footer">
