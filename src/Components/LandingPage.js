@@ -10,7 +10,7 @@ const LandingPage = () => {
         className="container-fluid p-5 first bg-secondary"
         style={{ height: "700px" }}
       >
-        <h1 style={{ paddingTop: "170px" }}>BUILD SOMETHING REMAERKABLE</h1>
+        <h1 style={{ paddingTop: "170px" }}>BUILD SOMETHING REMARKABLE</h1>
 
         <p>
           Hello, I’m Azeez Bankole, Full-Stack developer and Graphic designer
