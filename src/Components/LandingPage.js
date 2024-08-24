@@ -18,7 +18,7 @@ const LandingPage = () => {
         </p>
         <div className="flex">
           <button className="btn bg-danger text-light p-3 m-2">
-            <a href='https://www.linkedin.com/in/bankole-azeez-babatunde-9a59772a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
+            <a style={{textDecoration:'none', color:'#fff'}} href='https://www.linkedin.com/in/bankole-azeez-babatunde-9a59772a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
             <i className='bi bi-linkedin'></i> Follow</a>
           </button>
           <button className="btn bg-dark text-light p-3">Hire Me..</button>
