@@ -13,7 +13,7 @@ const LandingPage = () => {
         <h1 style={{ paddingTop: "170px" }}>BUILD SOMETHING REMAERKABLE</h1>
 
         <p>
-          Hello, I’m Azeez Bankole, UFull-Stack developer and Graphic designer
+          Hello, I’m Azeez Bankole, Full-Stack developer and Graphic designer
           based in Nigeria.
         </p>
         <div className="flex">
