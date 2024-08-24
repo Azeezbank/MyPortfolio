@@ -99,7 +99,7 @@ const LoadingAbout = () => {
                     href="https://eu.docworkspace.com/d/sIITG9quRAbeOnrYG"
                   >
                     {" "}
-                    Download CV
+                    <i className='bi bi-download'> </i> Download CV
                   </a>
                 </button>
               </div>
