@@ -146,7 +146,13 @@ const Awards = () => {
 
 
 
-
+<h2 id="edu" className="fw-bold p-5">
+          <i
+            className="bi bi-mortarboard"
+            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
+          ></i>{" "}
+          My Education
+        </h2>
 
 
             
