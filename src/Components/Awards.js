@@ -83,16 +83,7 @@ const Awards = () => {
           ></i>{" "}
           My Education
         </h2>
-        <div className="shadow-sm m-5 mt-1 p-3">
-          
-
-          
-
-          
-
-          
-
-          
+        <div className="shadow-sm ms-5 me-5 mb-5 mt-2 p-3">
             <div className='row mt-4'>
               <div className='col-sm-6 pt-2'>
                 <p className='text-primary'>2017 - 2023</p>
@@ -105,13 +96,12 @@ const Awards = () => {
         </div>
 
 
-
 <h2 id="edu" className="fw-bold p-5">
           <i
-            className="bi bi-mortarboard"
+            className="bi bi-book"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
-          My Certification
+          Certifications
         </h2>
             <div className="shadow-sm m-5 mt-1 p-3">
           <div className="row mt-4 border-bottom">
