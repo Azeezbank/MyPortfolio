@@ -151,7 +151,7 @@ const Awards = () => {
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
-          My Education
+          My Certification
         </h2>
             <div className="shadow-sm m-5 mt-1 p-3">
           <div className="row mt-4 border-bottom">
@@ -203,15 +203,6 @@ const Awards = () => {
               <p>Power Learn Project</p>
             </div>
           </div>
-            <div className='row mt-4'>
-              <div className='col-sm-6 pt-2'>
-                <p className='text-primary'>2017 - 2023</p>
-              </div>
-              <div className='col-sm-6'>
-                <h5 className="bold">Bachelor degree</h5>
-                <p>FUOYE</p>
-              </div>
-            </div>
         </div>
 
 
@@ -219,7 +210,7 @@ const Awards = () => {
 
         <h2 id="experience" className="fw-bold p-5 pb-1">
           <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
-          My Certifications
+          Experience
         </h2>
 
         <div className="experience p-5">
