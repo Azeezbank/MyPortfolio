@@ -76,7 +76,7 @@ const Awards = () => {
       </div>
 
       <div className="container-fluid bg-light pb-5 pt-5">
-        <h2 id="edu" className="fw-bold p-5">
+        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
@@ -158,7 +158,7 @@ const Awards = () => {
 
             
 
-        <h2 id="experience" className="fw-bold p-5 pb-1">
+        <h2 id="experience" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
           Experience
         </h2>
