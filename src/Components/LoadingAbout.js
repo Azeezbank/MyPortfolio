@@ -96,7 +96,7 @@ const LoadingAbout = () => {
                 <button className="btn bg-dark rounded-pill text-light hover">
                   <a
                     style={{ textDecoration: "none", color: "#fff" }}
-                    href="https://eu.docworkspace.com/d/sIITG9quRAbeOnrYG"
+                    href="https://eu.docworkspace.com/d/sIDrG9quRAYfdnrkG?sa=601.1123"
                   >
                     {" "}
                     <i className='bi bi-download'> </i> Download CV
