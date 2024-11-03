@@ -84,15 +84,7 @@ const Awards = () => {
           My Education
         </h2>
         <div className="shadow-sm m-5 mt-1 p-3">
-          <div className="row mt-4 border-bottom">
-            <div className="col-sm-6">
-              <p className="text-primary">2019 - 2022</p>
-            </div>
-            <div className="col-sm-6">
-              <h5 className="bold">Programming courses</h5>
-              <p>W3schools</p>
-            </div>
-          </div>
+          
 
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
