@@ -10,10 +10,10 @@ const NavBar = () => {
         <div className="container-fluid">
           <a
             className="navbar-brand"
-            style={{ fontSize: "2.2rem", fontWeight: "bold" }}
+            style={{ fontSize: "2.0rem", fontWeight: "bold" }}
             href="#"
           >
-            Bankky.
+            BankyTech.
           </a>
           <button
             className="navbar-toggler bg-danger"
