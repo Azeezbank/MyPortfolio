@@ -125,22 +125,22 @@ const Awards = () => {
           </div>
 
           <div className="row mt-4 border-bottom">
-            <div className="col-sm-6">
-              <p className="text-primary">2020 - 2021</p>
-            </div>
-            <div className="col-sm-6">
-              <h5 className="bold">WordPress course</h5>
-              <p>Udemy</p>
-            </div>
-          </div>
-
-          <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2023 - 2024</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Frontend courses</h5>
               <p>DevCareer</p>
+            </div>
+          </div>
+
+            <div className="row mt-4 border-bottom">
+            <div className="col-sm-6">
+              <p className="text-primary">2020 - 2021</p>
+            </div>
+            <div className="col-sm-6">
+              <h5 className="bold">WordPress course</h5>
+              <p>Udemy</p>
             </div>
           </div>
 
