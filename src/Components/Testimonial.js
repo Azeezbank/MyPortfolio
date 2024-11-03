@@ -19,9 +19,6 @@ const Testimonial = () => {
             <span className="aboutW span">TESTIMONIAL</span>
             <span className="aboutB span">TESTIMONIAL</span>
             <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
-            <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
           </h2>
         </marquee>
       </div>
@@ -135,7 +132,7 @@ const Testimonial = () => {
         <div className="row text-center">
           <div className="col-sm-4"></div>
           <div className="col-sm-4">
-            <button className="btn bg-dark text-light rounded mt-5 mb-5">
+            <button className="btn bg-dark text-light rounded mt-5 mb-5 hover">
               Explore Our Experience
             </button>
           </div>

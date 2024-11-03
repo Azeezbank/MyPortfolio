@@ -35,9 +35,9 @@ const LetsTalk = () => {
         <Link to="/Contact">
           <button
             id="talk"
-            className="btn rounded p-3 m-4 text-light shadow-small bg-secondary"
+            className="btn rounded p-3 m-4 text-light shadow-small bg-secondary hover"
           >
-            Lst's Talk
+            Let's Talk <i className='bi bi-chevron-double-right text-light'></i>
           </button>
         </Link>
       </div>

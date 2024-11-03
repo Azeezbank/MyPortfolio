@@ -21,18 +21,6 @@ const Awards = () => {
             <span className="aboutB span">AWARDS</span>
             <span className="aboutW span">AWARDS</span>
             <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
           </h1>
         </marquee>
       </div>
@@ -101,7 +89,7 @@ const Awards = () => {
               <p className="text-primary">2019 - 2022</p>
             </div>
             <div className="col-sm-6">
-              <h5>Programming courses</h5>
+              <h5 className="bold">Programming courses</h5>
               <p>W3schools</p>
             </div>
           </div>
@@ -111,7 +99,7 @@ const Awards = () => {
               <p className="text-primary">2023 - 2024</p>
             </div>
             <div className="col-sm-6">
-              <h5>Database courses</h5>
+              <h5 className="bold">Database courses</h5>
               <p>Power learn project</p>
             </div>
           </div>
@@ -121,7 +109,7 @@ const Awards = () => {
               <p className="text-primary">2020 - 2021</p>
             </div>
             <div className="col-sm-6">
-              <h5>WordPress course</h5>
+              <h5 className="bold">WordPress course</h5>
               <p>Udemy</p>
             </div>
           </div>
@@ -131,7 +119,7 @@ const Awards = () => {
               <p className="text-primary">2023 - 2024</p>
             </div>
             <div className="col-sm-6">
-              <h5>Frontend courses</h5>
+              <h5 className="bold">Frontend courses</h5>
               <p>DevCareer</p>
             </div>
           </div>
@@ -141,21 +129,19 @@ const Awards = () => {
               <p className="text-primary">2024 - Present</p>
             </div>
             <div className="col-sm-6">
-              <h5>Backend Courses</h5>
+              <h5 className="bold">Backend Courses</h5>
               <p>Power Learn Project</p>
             </div>
           </div>
-
-          <div className="row mt-4">
-            <div className="col-sm-6 pt-2">
-              <p className="text-primary">2017 - 2023</p>
+            <div className='row mt-4'>
+              <div className='col-sm-6 pt-2'>
+                <p className='text-primary'>2017 - 2023</p>
+              </div>
+              <div className='col-sm-6'>
+                <h5 className="bold">Bachelor degree</h5>
+                <p>FUOYE</p>
+              </div>
             </div>
-            <div className="col-sm-6">
-              <h5>Bachelor Degree</h5>
-              <p>FUOYE</p>
-            </div>
-          </div>
-
         </div>
 
         <h2 id="experience" className="fw-bold p-5 pb-1">
@@ -168,14 +154,14 @@ const Awards = () => {
             <div className="col-sm-4">
               <div className="card mb-3 mt-2">
                 <div className="card-header text-primary">
-                  <h3>Full-stack Developer</h3>
-                  <h5>Plp | 2024 - Present</h5>
+                  <h3 className="bold">Full-stack Developer</h3>
+                  <h5 className="bold">Plp | 2024 - Present</h5>
                 </div>
                 <div className="card-body">
                   <p>
                     Developed complex web applications using modern frameworks
                     and best practices. Collaborated with cross-functional teams
-                    to deliver high-quality, user-centric soluti
+                    to deliver high-quality, user-centric solution.
                   </p>
                 </div>
                 <div className="card-footer">
@@ -188,8 +174,8 @@ const Awards = () => {
             <div className="col-sm-4">
               <div className="card mb-3 mt-2">
                 <div className="card-header text-primary">
-                  <h3>Frontend developer </h3>
-                  <h5>DevCareer| 2023 - 2024</h5>
+                  <h3 className="bold">Frontend developer </h3>
+                  <h5 className="bold">DevCareer| 2023 - 2024</h5>
                 </div>
                 <div className="card-body">
                   <p>
@@ -213,8 +199,8 @@ const Awards = () => {
             <div className="col-sm-4">
               <div className="card mt-2">
                 <div className="card-header text-primary">
-                  <h3>Database </h3>
-                  <h5>Plp | 2023 - Present</h5>
+                  <h3 className="bold">Database </h3>
+                  <h5 className="bold">Plp | 2023 - Present</h5>
                 </div>
                 <div className="card-body">
                   <p>
@@ -222,7 +208,7 @@ const Awards = () => {
                     databases that power robust applications. My
                     responsibilities included creating efficient database
                     schemas, writing optimized SQL queries, and ensuring data
-                    integrity across various systems
+                    integrity across various systems.
                   </p>
                 </div>
                 <div className="card-footer">

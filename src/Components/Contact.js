@@ -36,14 +36,14 @@ const Contact = () => {
           You're launching a <br /> business and we <br /> can help you <br />{" "}
           make it look <br /> pretty.
         </h5>
-        <h3 style={{ paddingTop: "35px", color: "#000" }}>
+        <h3 style={{ paddingTop: "35px", color: "#000" }} className="bold">
           Frequently Asked Quetions
         </h3>
 
         <div className="container">
           <div id="accordion">
             <div className="card">
-              <div className="card-header bg-danger">
+              <div className="card-header bg-danger bold">
                 <a
                   style={{ color: "#fff", fontWeight: "bold" }}
                   className="btn"
@@ -133,16 +133,16 @@ const Contact = () => {
         <div className="container text-start bg-light mt-5 p-3 rounded">
           <div className="row">
             <div className="col-sm-4 pt-4">
-              <h6 className="text-muted">Contact</h6>
-              <h6 className="text-dark">+2349061324918</h6>
+              <h6 className="text-muted bold">Contact</h6>
+              <h6 className="text-dark bold">+2349061324918</h6>
             </div>
             <div className="col-sm-4 pt-4">
-              <h6 className="text-muted">Email</h6>
-              <h6 className="text-dark">bankoleazeezb98</h6>
+              <h6 className="text-muted bold">Email</h6>
+              <h6 className="text-dark bold">bankoleazeezb98</h6>
             </div>
             <div className="col-sm-4 pt-4">
-              <h6 className="text-muted">Address</h6>
-              <h6 className="text-dark">
+              <h6 className="text-muted bold">Address</h6>
+              <h6 className="text-dark bold">
                 5, Secretariat, Iragbiji, Osun State, Nigeria
               </h6>
             </div>

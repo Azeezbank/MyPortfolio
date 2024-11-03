@@ -76,7 +76,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <p>User interface</p>
+                <p>User Interface</p>
               </div>
               <div className="col-sm-6">
                 <div className="row text-start">

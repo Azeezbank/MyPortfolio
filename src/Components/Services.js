@@ -42,11 +42,11 @@ const Services = () => {
             backgroundColor: "rgba(255, 255, 255, 0.8",
           }}
         >
-          <h2 className="pt-5">RESPONSIVE DESIGN</h2>
+          <h2 className="pt-5 bold">RESPONSIVE DESIGN</h2>
 
           <div className="row p-2 pt-3">
             <div className="col-sm-4">
-              <h4>
+              <h4 className="bold">
                 <span
                   style={{
                     backgroundColor: "black",
@@ -65,7 +65,7 @@ const Services = () => {
               </p>
             </div>
             <div className="col-sm-4">
-              <h4>
+              <h4 className="bold">
                 <span
                   style={{
                     backgroundColor: "black",
@@ -84,7 +84,7 @@ const Services = () => {
               </p>
             </div>
             <div className="col-sm-4">
-              <h4>
+              <h4 className="bold">
                 <span
                   style={{
                     backgroundColor: "black",
@@ -107,7 +107,7 @@ const Services = () => {
       </div>
 
       <div className="container-fluid p-5 bg-light">
-        <h2 className="pt-5">USER CENTRIC DEVELOPMENT</h2>
+        <h2 className="pt-5 bold">USER CENTRIC DEVELOPMENT</h2>
         <div className="row p-2 pt-3">
           <div className="col-sm-6">
             <div className="row">
@@ -115,7 +115,7 @@ const Services = () => {
                 <div className="badge bg-secondary rounded">1</div>
               </div>
               <div className="col-sm-8">
-                <h4>Research</h4>
+                <h4 className="bold">Research</h4>
                 <p>
                   Gathering insights through user interviews, personal
                   development and competitive analysis
@@ -127,7 +127,7 @@ const Services = () => {
                 <div className="badge bg-secondary rounded">2</div>
               </div>
               <div className="col-sm-8">
-                <h4>Design</h4>
+                <h4 className="bold">Design</h4>
                 <p>
                   Iterating on low-fidelity wireframes and hight fidelity
                   prototype to validate consept
@@ -140,7 +140,7 @@ const Services = () => {
                 <div className="badge bg-secondary rounded">3</div>
               </div>
               <div className="col-sm-8">
-                <h4>Implement</h4>
+                <h4 className="bold">Implement</h4>
                 <p>
                   Translating designs into functional, pixel-perfect user
                   interface and experience.
@@ -159,7 +159,7 @@ const Services = () => {
       </div>
 
       <div className="container-fluid p-5">
-        <h3>THOUGHTFUL BRANDING</h3>
+        <h3 className="bold">THOUGHTFUL BRANDING</h3>
         <div className="row p-2"></div>
       </div>
     </>
