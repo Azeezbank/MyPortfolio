@@ -219,7 +219,7 @@ const Awards = () => {
 
         <h2 id="experience" className="fw-bold p-5 pb-1">
           <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
-          Experiences
+          My Certifications
         </h2>
 
         <div className="experience p-5">
