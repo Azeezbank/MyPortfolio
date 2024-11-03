@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 import LetsTalk from "./LetsTalk";
 
 // contact secction component
 const Contact = () => {
+  const [text, setText] = useState("");
   function click(e) {
     e.preventDefault();
     const name = document.getElementById("name").value;
@@ -13,6 +14,15 @@ const Contact = () => {
       alert("Message submited successfuly \n Welcome");
     } else {
       alert("All field are required");
+    }
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (text !== "") {
+      alert('Message submitted thanks')
+    } else {
+      alert('Message field cannot be empty')
     }
   }
   return (
@@ -177,6 +187,8 @@ const Contact = () => {
                   className="form-control mt-3 mb-3 bg-danger"
                   rows={5}
                   placeholder="Your Message"
+                  value={text}
+                  onChange={(e) => setText(e.target.value)}
                   required
                 ></textarea>
               </div>
@@ -184,7 +196,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-4">
                 <input
-                  onClick={click}
+                  onClick={handleSubmit}
                   type="submit"
                   className="btn form-control bg-danger"
                   value="Send"
