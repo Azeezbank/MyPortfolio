@@ -104,6 +104,16 @@ const Awards = () => {
           Certifications
         </h2>
             <div className="shadow-sm me-5 ms-5 mb-5 p-3">
+            <div className="row mt-4 border-bottom">
+            <div className="col-sm-6 pt-2">
+              <p className="text-primary">2024 - Present</p>
+            </div>
+            <div className="col-sm-6">
+              <h5 className="bold">Backend Courses</h5>
+              <p>Power Learn Project</p>
+            </div>
+          </div>
+            
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2023 - 2024</p>
@@ -134,16 +144,7 @@ const Awards = () => {
             </div>
           </div>
 
-          <div className="row mt-4 border-bottom">
-            <div className="col-sm-6 pt-2">
-              <p className="text-primary">2024 - Present</p>
-            </div>
-            <div className="col-sm-6">
-              <h5 className="bold">Backend Courses</h5>
-              <p>Power Learn Project</p>
-            </div>
-          </div>
-            <div className="row mt-4 border-bottom">
+            <div className="row mt-4">
             <div className="col-sm-6">
               <p className="text-primary">2019 - 2022</p>
             </div>
