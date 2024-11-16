@@ -21,8 +21,7 @@ const Contact = () => {
     e.preventDefault();
     if (text !== "") {
       alert('Message submitted thanks')
-    } else {
-      alert('Message field cannot be empty')
+    } else 
     }
   }
   return (
