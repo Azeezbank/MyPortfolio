@@ -47,7 +47,7 @@ const LoadingAbout = () => {
           <div className="col-sm-6 pt-3">
             <img
               className="img2"
-              src="https://tunstelecom.com.ng/wp-content/uploads/2024/08/IMG_20240809_114901_386-scaled.jpg"
+              src="https://github.com/Azeezbank/Images/raw/main/my_headshot.png"
               alt="profile"
             />
           </div>
