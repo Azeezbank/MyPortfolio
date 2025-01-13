@@ -1,30 +1,33 @@
-import React, { useState, useEffect } from "react";
-import { useInView } from 'react-intersection-observer';
+import React, { useState, useEffect, useRef } from "react";
+import { useInView, motion } from 'framer-motion';
+import CountUp from "react-countup";
 
 
-// about page section
 const LoadingAbout = () => {
-  const [Years, setYears] = useState(0);
+// about page section
+const AnimatedCount = ({start, end, duration, label}) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once: true});
 
-  useEffect(() => {
-    if (Years < 100) {
-      const timer = setTimeout(() => {
-        setYears(Years + 1);
-      }, 600);
-      return () => clearTimeout(timer);
-    }
-  }, [Years]);
+  return (
+    <>
+    <div ref={ref}>
+      {isInView && (
+        <motion.div
+        initial={{opacity:0, y:0}}
+        animate={{opacity:1, y:0}}
+        transition={{duration: 0.5}}>
+          <p>
+          <CountUp start={start} end={end} duration={duration} />
+          
+          {label}+</p>
+        </motion.div>
+      )}
+    </div>
+    </>
+  )
+};
 
-  const [honor, setHonor] = useState(0);
-
-  useEffect(() => {
-    if (honor < 20) {
-      const many = setTimeout(() => {
-        setHonor(honor + 1);
-      }, 800);
-      return () => clearTimeout(many);
-    }
-  }, [honor]);
   return (
     <>
       <div className="scrow">
@@ -47,7 +50,7 @@ const LoadingAbout = () => {
           <div className="col-sm-6 pt-3">
             <img
               className="img2"
-              src="https://github.com/Azeezbank/Images/raw/main/my_headshot.png"
+              src=''
               alt="profile"
             />
           </div>
@@ -79,15 +82,15 @@ const LoadingAbout = () => {
 
             <div className="row">
               <div className="col-sm-4 pt-4">
-                <h3 className="bold">4+</h3>
+                <h3 className="bold"><AnimatedCount start={0} end={4} duration={0.5} /></h3>
                 <p>Years of experience</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3 className="bold">{Years}+</h3>
+                <h3 className="bold"><AnimatedCount start={0} end={100} duration={4} /></h3>
                 <p>Successful projects</p>
               </div>
               <div className="col-sm-4 pt-4">
-                <h3 className="bold">{honor}+</h3>
+                <h3 className="bold"><AnimatedCount start={0} end={20} duration={2} /></h3>
                 <p>Hornor and awards</p>
               </div>
             </div>

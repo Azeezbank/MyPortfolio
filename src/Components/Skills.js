@@ -2,6 +2,8 @@ import React from "react";
 
 // skills section component
 const Skills = () => {
+
+ 
   return (
     <>
       <div className="container-fluid bg-dark text-light text-center pt-5">
@@ -70,7 +72,7 @@ const Skills = () => {
                 <div className="progress">
                   <div
                     className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                    style={{ width: "95%" }}
+                    style={{width: '95%'}}
                   >
                     95%
                   </div>
