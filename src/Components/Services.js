@@ -35,7 +35,7 @@ const Services = () => {
 
       <div className="container-fluid bg-light" style={backgroundImageStyle}>
         <div
-          className="p-5 text-dark"
+          className="pt-5 pb-5 ps-2 pe-2 text-dark"
           style={{
             opacity: "1",
             width: "100%",
