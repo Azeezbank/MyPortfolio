@@ -163,7 +163,7 @@ const Awards = () => {
           Experience
         </h2>
 
-        <div className="experience p-5">
+        <div className="experience pt-5 pb-5 ps-2 pe-2">
           <div className="row pb-3">
             <div className="col-sm-4">
               <div className="card mb-3 mt-2">
