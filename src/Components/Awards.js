@@ -76,24 +76,44 @@ const Awards = () => {
       </div>
 
       <div className="container-fluid bg-light pb-5 pt-5">
-        <h2 id="edu" className="fw-bold p-5">
+        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
           My Education
         </h2>
-        <div className="shadow-sm m-5 mt-1 p-3">
-          <div className="row mt-4 border-bottom">
-            <div className="col-sm-6">
-              <p className="text-primary">2019 - 2022</p>
+        <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+            <div className='row mt-4'>
+              <div className='col-sm-6 pt-2'>
+                <p className='text-primary'>2017 - 2023</p>
+              </div>
+              <div className='col-sm-6'>
+                <h5 className="bold">Bachelor degree</h5>
+                <p>FUOYE</p>
+              </div>
+            </div>
+        </div>
+
+
+<h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+          <i
+            className="bi bi-file-earmark-fill"
+            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
+          ></i>{" "}
+          Certifications
+        </h2>
+            <div className="shadow-sm me-5 ms-5 mb-5 p-3">
+            <div className="row mt-4 border-bottom">
+            <div className="col-sm-6 pt-2">
+              <p className="text-primary">2024 - Present</p>
             </div>
             <div className="col-sm-6">
-              <h5 className="bold">Programming courses</h5>
-              <p>W3schools</p>
+              <h5 className="bold">Backend Courses</h5>
+              <p>Power Learn Project</p>
             </div>
           </div>
-
+            
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2023 - 2024</p>
@@ -101,16 +121,6 @@ const Awards = () => {
             <div className="col-sm-6">
               <h5 className="bold">Database courses</h5>
               <p>Power learn project</p>
-            </div>
-          </div>
-
-          <div className="row mt-4 border-bottom">
-            <div className="col-sm-6">
-              <p className="text-primary">2020 - 2021</p>
-            </div>
-            <div className="col-sm-6">
-              <h5 className="bold">WordPress course</h5>
-              <p>Udemy</p>
             </div>
           </div>
 
@@ -124,29 +134,33 @@ const Awards = () => {
             </div>
           </div>
 
-          <div className="row mt-4 border-bottom">
-            <div className="col-sm-6 pt-2">
-              <p className="text-primary">2024 - Present</p>
+            <div className="row mt-4 border-bottom">
+            <div className="col-sm-6">
+              <p className="text-primary">2020 - 2021</p>
             </div>
             <div className="col-sm-6">
-              <h5 className="bold">Backend Courses</h5>
-              <p>Power Learn Project</p>
+              <h5 className="bold">WordPress course</h5>
+              <p>Udemy</p>
             </div>
           </div>
-            <div className='row mt-4'>
-              <div className='col-sm-6 pt-2'>
-                <p className='text-primary'>2017 - 2023</p>
-              </div>
-              <div className='col-sm-6'>
-                <h5 className="bold">Bachelor degree</h5>
-                <p>FUOYE</p>
-              </div>
+
+            <div className="row mt-4">
+            <div className="col-sm-6">
+              <p className="text-primary">2019 - 2022</p>
             </div>
+            <div className="col-sm-6">
+              <h5 className="bold">Programming courses</h5>
+              <p>W3schools</p>
+            </div>
+          </div>
         </div>
 
-        <h2 id="experience" className="fw-bold p-5 pb-1">
+
+            
+
+        <h2 id="experience" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
-          Experiences
+          Experience
         </h2>
 
         <div className="experience p-5">

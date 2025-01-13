@@ -21,7 +21,6 @@ const Contact = () => {
     e.preventDefault();
     if (text !== "") {
       alert('Message submitted thanks')
-    } else 
     }
   }
   return (
@@ -39,7 +38,7 @@ const Contact = () => {
           <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
             <span>Home</span>
           </Link>{" "}
-          <span>></span> <span>Contact</span>
+          <span>{'>'}</span> <span>Contact</span>
         </p>
         <h5 style={{ paddingTop: "30px", color: "#000" }}>
           You're launching a <br /> business and we <br /> can help you <br />{" "}
