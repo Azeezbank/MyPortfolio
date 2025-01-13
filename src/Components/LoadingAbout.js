@@ -50,7 +50,7 @@ const AnimatedCount = ({start, end, duration, label}) => {
           <div className="col-sm-6 pt-3">
             <img
               className="img2"
-              src=''
+              src='https://github.com/Azeezbank/Images/raw/main/my_headshot.png'
               alt="profile"
             />
           </div>
