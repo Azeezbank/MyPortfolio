@@ -16,7 +16,7 @@ const LandingPage = () => {
         className="container-fluid p-5 first bg-secondary"
         style={{ height: "700px" }}
       >
-        <motion.h1 style={{ paddingTop: "170px" }} ref={ref1} initial={{scale: 0.5}} animate={{scale: view1? 1 : 0.5}} transition={{duration: 1.5}}>BUILD SOMETHING REMARKABLE</motion.h1>
+        <motion.h1 style={{ paddingTop: "170px" }} ref={ref1} initial={{scale: 1.5}} animate={{scale: view1? 1 : 1.5}} transition={{duration: 1.5, ease: 'easeInOut'}}>BUILD SOMETHING REMARKABLE</motion.h1>
 
         <p>
           Full-Stack developer skilled in creating dynamic responsive web application with a focus on seamless user experience and efficient backend solutions.
