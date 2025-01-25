@@ -1,16 +1,22 @@
 import React from "react";
 import "../App.css";
+import { motion } from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 
 // Home page section
 const LandingPage = () => {
+  const [ref1, view1] = useInView({
+    triggerOnce: false,
+    threshold: 1
+});
   return (
     <>
       <div
         className="container-fluid p-5 first bg-secondary"
         style={{ height: "700px" }}
       >
-        <h1 style={{ paddingTop: "170px" }}>BUILD SOMETHING REMARKABLE</h1>
+        <motion.h1 style={{ paddingTop: "170px" }} ref={ref1} initial={{scale: 2}} animate={{scale: view1? 1 : 2}}>BUILD SOMETHING REMARKABLE</motion.h1>
 
         <p>
           Full-Stack developer skilled in creating dynamic responsive web application with a focus on seamless user experience and efficient backend solutions.
