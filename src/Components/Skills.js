@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <>
       <div className="container-fluid bg-dark text-light text-center pt-5">
-        <motion.h2 className="text-center p-5 text-light m-0 text-uppercase" ref={ref} initial={{x: 100}} animate={{x: view ? 0 : 100}} transition={{duration: 1}}>
+        <motion.h2 className="text-center p-5 text-light m-0 text-uppercase" ref={ref} initial={{x: 100}} animate={{x: view ? 0 : 100}} transition={{duration: 1}} style={{position: 'absolute'}}>
           I craft wonderful <br />
           digital experiences for brands
         </motion.h2>
