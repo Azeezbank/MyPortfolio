@@ -6,10 +6,10 @@ import { useInView } from "react-intersection-observer";
 
 // Home page section
 const LandingPage = () => {
-  const [ref1, view1] = useInView({
+  /*const [ref1, view1] = useInView({
     triggerOnce: false,
     threshold: 0.5
-});
+});*/
   return (
     <>
       <div
