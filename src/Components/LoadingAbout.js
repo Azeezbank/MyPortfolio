@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useInView, motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import CountUp from "react-countup";
 
 
 const LoadingAbout = () => {
 // about page section
 const AnimatedCount = ({start, end, duration, label}) => {
+
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true});
+
 
   return (
     <>
@@ -56,11 +58,12 @@ const AnimatedCount = ({start, end, duration, label}) => {
           </div>
           <div className="col-sm-6 pt-3">
             <p>
-              Hello! I’m Bankole Azeez, a full-stack software developer from Osun State, Nigeria. With extensive experience
+              <b>Hello! I’m Bankole Azeez</b>, a full-stack software developer from Osun State, Nigeria. With extensive experience
               in  building responsive, high-quality websites and applications, i'm passionate about crafting solution that 
               are both functional anf visually engaging. As a lifelong learner, i'm always exploring new technologies to 
               enhance my skills, including expertise in wordpress development. Let's connect-i'd love to share what makes my approach unique.
             </p>
+            </div>
 
             <div className="row">
               <div className="col-sm-6 pt-4">
@@ -109,7 +112,6 @@ const AnimatedCount = ({start, end, duration, label}) => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

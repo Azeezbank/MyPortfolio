@@ -1,26 +1,32 @@
 import React from "react";
 import "../App.css";
-import { motion } from 'framer-motion';
+import { easeIn, easeInOut, motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 
 
 // Home page section
 const LandingPage = () => {
-  /*const [ref1, view1] = useInView({
+  const [ref1, view1] = useInView({
     triggerOnce: false,
     threshold: 0.5
-});*/
+});
+
+const [ref, view] = useInView({
+  triggerOnce: false,
+  threshold: 0.5
+});
+
   return (
     <>
       <div
         className="container-fluid p-5 first bg-secondary"
         style={{ height: "700px" }}
       >
-        <motion.h1 style={{ paddingTop: "170px" }}>BUILD SOMETHING REMARKABLE</motion.h1>
+        <motion.h1 style={{ paddingTop: "170px" }} ref={ref1} initial={{y: -50}} animate={{y: view1? 0 : -50}} transition={{duration: 1}}>BUILD SOMETHING REMARKABLE</motion.h1>
 
-        <p>
+        <motion.p ref={ref} initial={{scale: 0}} animate={{scale: view? 1 : 0}} transition={{duration: 1, ease: easeInOut}}>
           Full-Stack developer skilled in creating dynamic responsive web application with a focus on seamless user experience and efficient backend solutions.
-        </p>
+        </motion.p>
         <div className="flex">
           <button className="btn bg-danger text-light p-3 m-2 hover">
             <a style={{textDecoration:'none', color:'#fff'}} href='https://www.linkedin.com/in/bankole-azeez-babatunde-9a59772a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>

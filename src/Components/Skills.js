@@ -1,16 +1,22 @@
 import React from "react";
+import { motion, transform } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 
 // skills section component
 const Skills = () => {
-
+  const [ref, view] = useInView({
+    triggerOnce: false,
+    threshold: 0.5
+  })
  
   return (
     <>
       <div className="container-fluid bg-dark text-light text-center pt-5">
-        <h2 className="text-center p-5 text-light m-0 text-uppercase">
+        <motion.h2 className="text-center p-5 text-light m-0 text-uppercase" ref={ref} initial={{x: 100}} animate={{x: view ? 0 : 100}} transition={{duration: 1}}>
           I craft wonderful <br />
           digital experiences for brands
-        </h2>
+        </motion.h2>
 
         <div className="row p-2 ">
           <div className="col-sm-4">

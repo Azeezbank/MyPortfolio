@@ -1,8 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 
 // services section
 const Services = () => {
+  const [ref, view] = useInView({
+    triggerOnce: false,
+    threshold: 1
+  })
+  
   const backgroundImageStyle = {
     backgroundImage: `url('https://tunstelecom.com.ng/wp-content/uploads/2024/08/images-15.jpeg')`,
     backgroundSize: "cover",
