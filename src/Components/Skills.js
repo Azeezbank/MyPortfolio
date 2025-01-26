@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, transform } from "framer-motion";
+import { easeInOut, motion, transform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
@@ -9,18 +9,38 @@ const Skills = () => {
     triggerOnce: false,
     threshold: 0.5
   })
+
+  const [ref1, view1] = useInView({
+    triggerOnce: false,
+    threshold: 0.1
+  })
+
+  const [ref2, view2] = useInView({
+    triggerOnce: false,
+    threshold: 0.5
+  })
+
+  const [ref3, view3] = useInView({
+    triggerOnce: false,
+    threshold: 0.5
+  })
+
+  const [ref4, view4] = useInView({
+    triggerOnce: false,
+    threshold: 0.5
+  })
  
   return (
     <>
       <div className="container-fluid bg-dark text-light text-center pt-5" style={{position: 'relative', overflow: 'hidden'}}>
-        <motion.h2 className="text-center p-5 text-light m-0 text-uppercase" ref={ref} initial={{x: 100}} animate={{x: view ? 0 : 100}} transition={{duration: 1}}>
+        <motion.h2 className="text-center p-5 text-light m-0 text-uppercase" ref={ref} initial={{x: 100, opacity: 0}} animate={{x: view ? 0 : 100, opacity: view? 1 : 0}} transition={{duration: 1}}>
           I craft wonderful <br />
           digital experiences for brands
         </motion.h2>
 
         <div className="row p-2 ">
           <div className="col-sm-4">
-            <h2 className="pt-3 pb-2 text-uppercase">Soft Skills</h2>
+            <motion.h2 className="pt-3 pb-2 text-uppercase" ref={ref1} initial={{y: 50}} animate={{y: view1? 0 : 50}} transition={{duration: 0.5, ease: "easeIn"}}>Soft Skills</motion.h2>
             <div className="text-start">
               <div className="row">
                 <div className="col-sm-4 pt-4">
@@ -51,7 +71,7 @@ const Skills = () => {
           </div>
 
           <div className="col-sm-8">
-            <h2 className="pt-3 pb-2 text-uppercase">Technical Skills</h2>
+            <motion.h2 className="pt-3 pb-2 text-uppercase" ref={ref2} initial={{y: 50}} animate={{y: view2? 0 : 50}} transition={{duration: 0.5, ease: "easeIn"}}>Technical Skills</motion.h2>
 
             <div className="row p-3 pb-5">
               <div className="col-sm-6">

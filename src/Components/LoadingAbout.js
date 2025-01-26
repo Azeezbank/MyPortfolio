@@ -58,9 +58,9 @@ const AnimatedCount = ({start, end, duration, label}) => {
           </div>
           <div className="col-sm-6 pt-3">
             <p>
-              <b>Hello! I’m Bankole Azeez</b>, a full-stack software developer from Osun State, Nigeria. With extensive experience
+              <b>Hello! I’m Bankole Azeez</b>, a full-stack software developer from Nigeria. With extensive experience
               in  building responsive, high-quality websites and applications, i'm passionate about crafting solution that 
-              are both functional anf visually engaging. As a lifelong learner, i'm always exploring new technologies to 
+              are both functional and visually engaging. As a lifelong learner, i'm always exploring new technologies to 
               enhance my skills, including expertise in wordpress development. Let's connect-i'd love to share what makes my approach unique.
             </p>
             </div>
