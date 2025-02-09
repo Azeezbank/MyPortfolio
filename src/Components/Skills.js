@@ -13,7 +13,7 @@ const Skills = () => {
       let value = 0;
       const interval = setInterval(() => {
         value += 2;
-        setProgress(value);
+        setProgress(90);
         if (value >= 50) clearInterval(interval);
       }, 50);
     }
