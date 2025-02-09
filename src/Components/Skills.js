@@ -112,7 +112,7 @@ const Skills = () => {
                 <div className="progress">
                   <div
                     className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                    style={{width: `${progress}`}}
+                    style={{width: `${progress}%`}}
                   >
                     95%
                   </div>
