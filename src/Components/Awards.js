@@ -100,7 +100,7 @@ const Awards = () => {
         </div>
 
         {/* license and certification */}
-        <h2 id="edu" className="fw-bold ps-2 pe-2 pt-5 pb-1">
+        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
@@ -110,7 +110,7 @@ const Awards = () => {
 
         <div className="row mt-4">
           <div className="col-sm-6 pt-2">
-            <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+            <div className="shadow-sm ms-2 me-2 mb-5 p-3">
               <h5 className="bold">FullStack development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
@@ -122,7 +122,7 @@ const Awards = () => {
           </div>
 
           <div className="col-sm-6">
-            <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+            <div className="shadow-sm ms-2 me-2 mb-5 p-3">
               <h5 className="bold">Front-End Web Development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.SL4wHW9HIiv2ObA6CqdV4gAAAA?rs=1&pid=ImgDetMain"/>
@@ -141,7 +141,7 @@ const Awards = () => {
           ></i>{" "}
           Certifications
         </h2>
-        <div className="shadow-sm me-5 ms-5 mb-5 p-3">
+        <div className="shadow-sm me-2 ms-2 mb-5 p-3">
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2024 - Present</p>
