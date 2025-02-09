@@ -6,15 +6,15 @@ import { useInView } from "react-intersection-observer";
 // skills section component
 const Skills = () => {
   const [progress, setProgress] = useState(0);
-  const [refP, viewP] = useInView({triggerOnce: true});
+  const [refP, viewP] = useInView({triggerOnce: false});
 
   useEffect(() => {
     if (viewP) {
       let value = 0;
       const interval = setInterval(() => {
-        value += 2;
-        setProgress(90);
-        if (value >= 50) clearInterval(interval);
+        value += 1;
+        setProgress(value);
+        if (value >= 95) clearInterval(interval);
       }, 50);
     }
   }, [viewP]);
