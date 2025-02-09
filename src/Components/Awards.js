@@ -1,5 +1,6 @@
 import React from "react";
-
+import plpCert from "../assets/Screenshot (2).png";
+import altCert from "../assets/Screenshot (4).png";
 
 // award section component
 const Awards = () => {
@@ -84,43 +85,86 @@ const Awards = () => {
           My Education
         </h2>
         <div className="shadow-sm ms-5 me-5 mb-5 p-3">
-            <div className='row mt-4'>
-              <div className='col-sm-6 pt-2'>
-                <p className='text-primary'>2017 - 2023</p>
-              </div>
-              <div className='col-sm-6'>
-                <h5 className="bold">Bachelor degree</h5>
-                <p>FUOYE</p>
+          <div className="row mt-4">
+            <div className="col-sm-6 pt-2">
+              <p className="text-primary">2017 - 2023</p>
+            </div>
+            <div className="col-sm-6">
+              <h5 className="bold">Bachelor degree</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.xZmecZfOx49ESLKn8F0YjwHaEo?rs=1&pid=ImgDetMain"/>
+              <p>FUOYE</p>
               </div>
             </div>
+          </div>
         </div>
 
+        {/* license and certification */}
+        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+          <i
+            className="bi bi-mortarboard"
+            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
+          ></i>{" "}
+          Licenses and certification
+        </h2>
 
-<h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+        <div className="row mt-4">
+          <div className="col-sm-6 pt-2">
+            <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+              <h5 className="bold">FullStack development</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
+              <p>Power Learn Project</p>
+              </div>
+              <p className="text-primary">Issued Jan 2024</p>
+              <img className="certificate" src={plpCert} alt="certificate" />
+            </div>
+          </div>
+
+          <div className="col-sm-6">
+            <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+              <h5 className="bold">Front-End Web Development</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.SL4wHW9HIiv2ObA6CqdV4gAAAA?rs=1&pid=ImgDetMain"/>
+              <p>DevCareer</p>
+              </div>
+              <p className="text-primary">Issued Jan 2024</p>
+              <img className="certificate" src={altCert} alt="certificate" />
+            </div>
+          </div>
+        </div>
+
+        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i
             className="bi bi-file-earmark-fill"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
           Certifications
         </h2>
-            <div className="shadow-sm me-5 ms-5 mb-5 p-3">
-            <div className="row mt-4 border-bottom">
+        <div className="shadow-sm me-5 ms-5 mb-5 p-3">
+          <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2024 - Present</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Backend Courses</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
               <p>Power Learn Project</p>
+              </div>
             </div>
           </div>
-            
+
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2023 - 2024</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Database courses</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
               <p>Power learn project</p>
+              </div>
             </div>
           </div>
 
@@ -130,33 +174,39 @@ const Awards = () => {
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Frontend courses</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.SL4wHW9HIiv2ObA6CqdV4gAAAA?rs=1&pid=ImgDetMain"/>
               <p>DevCareer</p>
+              </div>
             </div>
           </div>
 
-            <div className="row mt-4 border-bottom">
+          <div className="row mt-4 border-bottom">
             <div className="col-sm-6">
               <p className="text-primary">2020 - 2021</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">WordPress course</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://logos-world.net/wp-content/uploads/2021/11/Udemy-Symbol.png" />
               <p>Udemy</p>
+              </div>
             </div>
           </div>
 
-            <div className="row mt-4">
+          <div className="row mt-4">
             <div className="col-sm-6">
               <p className="text-primary">2019 - 2022</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Programming courses</h5>
+              <div className="d-flex">
+              <img className="awardPlacement" src="https://th.bing.com/th/id/R.47b77c342731043d534498d1be41c67f?rik=h%2f5mngi7y0nvng&pid=ImgRaw&r=0" />
               <p>W3schools</p>
+              </div>
             </div>
           </div>
         </div>
-
-
-            
 
         <h2 id="experience" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
