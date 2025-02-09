@@ -250,7 +250,7 @@ const Skills = () => {
                   </div>
                   <h1>85%</h1>
                   <div className="spinner-border text-primary"></div>
-                  <div ref={ref3} className="progress">
+                  <div ref={refP3} className="progress">
                     <div
                       className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
                       style={{ width: `${progress3}%` }}
