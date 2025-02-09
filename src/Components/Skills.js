@@ -8,9 +8,11 @@ const Skills = () => {
   const [progress, setProgress] = useState(0);
   const [progress1, setProgress1] = useState(0);
   const [progress2, setProgress2] = useState(0);
+  const [progress3, setProgress3] = useState(0);
   const [refP, viewP] = useInView({triggerOnce: false});
   const [refP1, viewP1] = useInView({triggerOnce: false});
   const [refP2, viewP2] = useInView({triggerOnce: false});
+  const [refP3, viewP3] = useInView({triggerOnce: false});
 
   useEffect(() => {
     if (viewP) {
@@ -47,6 +49,18 @@ const Skills = () => {
       return () => clearInterval(interval);
     }
   }, [viewP2]);
+
+  useEffect(() => {
+    if (viewP3) {
+      let value = 0;
+      const interval = setInterval(() => {
+        value += 5;
+        setProgress3(value);
+        if (value >= 85) clearInterval(interval);
+      }, 10);
+      return () => clearInterval(interval);
+    }
+  }, [viewP3]);
   
   const [ref, view] = useInView({
     triggerOnce: false,
@@ -133,7 +147,7 @@ const Skills = () => {
                   </div>
                   <div className="col-sm-8 pt-3">
                     <h3>Frontend</h3>
-                    <p>HTML5, CSS, JavaScript, React, Bootstrap</p>
+                    <p>HTML5, CSS, JavaScript, TypeScript, React, Bootstrap</p>
                   </div>
                 </div>
                 <h1>95%</h1>
@@ -236,10 +250,10 @@ const Skills = () => {
                   </div>
                   <h1>85%</h1>
                   <div className="spinner-border text-primary"></div>
-                  <div className="progress">
+                  <div ref={ref3} className="progress">
                     <div
                       className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                      style={{ width: "85%" }}
+                      style={{ width: `${progress3}%` }}
                     >
                       85%
                     </div>
