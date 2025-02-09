@@ -15,7 +15,7 @@ const Skills = () => {
         value += 5
         setProgress(value);
         if (value >= 50) clearInterval(interval);
-      }, 1000);
+      }, 100);
     }
   }, [viewP]);
   
