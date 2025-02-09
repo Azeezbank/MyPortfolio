@@ -6,7 +6,11 @@ import { useInView } from "react-intersection-observer";
 // skills section component
 const Skills = () => {
   const [progress, setProgress] = useState(0);
+  const [progress1, setProgress1] = useState(0);
+  const [progress2, setProgress2] = useState(0);
   const [refP, viewP] = useInView({triggerOnce: false});
+  const [refP1, viewP1] = useInView({triggerOnce: false});
+  const [refP2, viewP2] = useInView({triggerOnce: false});
 
   useEffect(() => {
     if (viewP) {
@@ -16,8 +20,33 @@ const Skills = () => {
         setProgress(value);
         if (value >= 95) clearInterval(interval);
       }, 10);
+      return () => clearInterval(interval);
     }
   }, [viewP]);
+
+  useEffect(() => {
+    if (viewP1) {
+      let value = 0;
+      const interval = setInterval(() => {
+        value += 5;
+        setProgress1(value);
+        if (value >= 85) clearInterval(interval);
+      }, 10);
+      return () => clearInterval(interval);
+    }
+  }, [viewP1]);
+
+  useEffect(() => {
+    if (viewP2) {
+      let value = 0;
+      const interval = setInterval(() => {
+        value += 5;
+        setProgress2(value);
+        if (value >= 90) clearInterval(interval);
+      }, 10);
+      return () => clearInterval(interval);
+    }
+  }, [viewP2]);
   
   const [ref, view] = useInView({
     triggerOnce: false,
@@ -141,10 +170,10 @@ const Skills = () => {
                 </div>
                 <h1>85%</h1>
                 <div className="spinner-border text-primary"></div>
-                <div className="progress">
+                <div ref={refP1} className="progress">
                   <div
                     className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                    style={{ width: "90%" }}
+                    style={{ width: `${progress1}%` }}
                   >
                     85%
                   </div>
@@ -174,10 +203,10 @@ const Skills = () => {
                   </div>
                   <h1>90%</h1>
                   <div className="spinner-border text-primary"></div>
-                  <div className="progress">
+                  <div ref={refP2} className="progress">
                     <div
                       className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                      style={{ width: "85%" }}
+                      style={{ width: `${progress2}%` }}
                     >
                       90%
                     </div>
