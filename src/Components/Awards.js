@@ -84,7 +84,7 @@ const Awards = () => {
           ></i>{" "}
           My Education
         </h2>
-        <div className="shadow-sm ms-5 me-5 mb-5 p-3">
+        <div className="shadow-sm ms-2 me-2 mb-5 p-3">
           <div className="row mt-4">
             <div className="col-sm-6 pt-2">
               <p className="text-primary">2017 - 2023</p>
