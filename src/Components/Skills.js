@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { easeInOut, motion, transform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
 // skills section component
 const Skills = () => {
+  const [progress, setProgress] = useState(0);
+  const [refP, viewP] = useInView({triggerOnce: true});
+
+  useEffect(() => {
+    if (viewP) {
+      let value = 0;
+      const interval = setInterval(() => {
+        value += 5
+        setProgress(value);
+        if (value >= 50) clearInterval(interval);
+      }, 1000);
+    }
+  }, [viewP]);
+  
   const [ref, view] = useInView({
     triggerOnce: false,
     threshold: 0.5
@@ -98,7 +112,7 @@ const Skills = () => {
                 <div className="progress">
                   <div
                     className="progress-bar bg-primary progress-bar-striped progress-bar-animated"
-                    style={{width: '95%'}}
+                    style={{width: `${progress}`}}
                   >
                     95%
                   </div>
