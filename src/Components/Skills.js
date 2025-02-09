@@ -12,10 +12,10 @@ const Skills = () => {
     if (viewP) {
       let value = 0;
       const interval = setInterval(() => {
-        value += 5
+        value += 2;
         setProgress(value);
         if (value >= 50) clearInterval(interval);
-      }, 100);
+      }, 50);
     }
   }, [viewP]);
   
