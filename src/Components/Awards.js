@@ -100,7 +100,7 @@ const Awards = () => {
         </div>
 
         {/* license and certification */}
-        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+        <h2 id="edu" className="fw-bold ps-2 pe-2 pt-5 pb-1">
           <i
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
