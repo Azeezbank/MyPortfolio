@@ -24,6 +24,7 @@ const Skills = () => {
       }, 10);
       return () => clearInterval(interval);
     }
+    setProgress1(0);
   }, [viewP]);
 
   useEffect(() => {
@@ -34,7 +35,7 @@ const Skills = () => {
         setProgress1(value);
         if (value >= 85) clearInterval(interval);
       }, 10);
-      //return () => clearInterval(interval);
+      return () => clearInterval(interval);
     }
     setProgress1(0);
   }, [viewP1]);
@@ -49,6 +50,7 @@ const Skills = () => {
       }, 10);
       return () => clearInterval(interval);
     }
+    setProgress1(0);
   }, [viewP2]);
 
   useEffect(() => {
@@ -61,6 +63,7 @@ const Skills = () => {
       }, 10);
       return () => clearInterval(interval);
     }
+    setProgress1(0);
   }, [viewP3]);
   
   const [ref, view] = useInView({
