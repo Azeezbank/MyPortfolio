@@ -34,8 +34,9 @@ const Skills = () => {
         setProgress1(value);
         if (value >= 85) clearInterval(interval);
       }, 10);
-      return () => clearInterval(interval);
+      //return () => clearInterval(interval);
     }
+    setProgress1(0);
   }, [viewP1]);
 
   useEffect(() => {
