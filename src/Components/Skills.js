@@ -22,7 +22,7 @@ const Skills = () => {
         setProgress(value);
         if (value >= 95) clearInterval(interval);
       }, 10);
-      return () => clearInterval(interval);
+      //return () => clearInterval(interval);
     }
     setProgress1(0);
   }, [viewP]);
@@ -35,7 +35,7 @@ const Skills = () => {
         setProgress1(value);
         if (value >= 85) clearInterval(interval);
       }, 10);
-      return () => clearInterval(interval);
+      //return () => clearInterval(interval);
     }
     setProgress1(0);
   }, [viewP1]);
@@ -48,7 +48,7 @@ const Skills = () => {
         setProgress2(value);
         if (value >= 90) clearInterval(interval);
       }, 10);
-      return () => clearInterval(interval);
+      //return () => clearInterval(interval);
     }
     setProgress1(0);
   }, [viewP2]);
@@ -61,7 +61,7 @@ const Skills = () => {
         setProgress3(value);
         if (value >= 85) clearInterval(interval);
       }, 10);
-      return () => clearInterval(interval);
+      //return () => clearInterval(interval);
     }
     setProgress1(0);
   }, [viewP3]);
