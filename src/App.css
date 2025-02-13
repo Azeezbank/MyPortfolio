@@ -2,32 +2,40 @@
 * {
   box-sizing: border-box;
   padding: 0px;
+  margin: 0px;
   font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
 }
-
-
-/* text animation */
-.scrow {
-  background-color: black;
+/* .scrow {
   height: 70px;
+  background-color: #000;
+  overflow: hidden;
 }
-.bold {font-weight: bold;}
-
 .scrowI {
-  animation: scroll 10s linear-infinite;
+  padding-top: 10px;
+  white-space: nowrap;
   display: inline-block;
-  padding: 15px 0px;
+  animation: marquee 20s linear infinite;
+  background-color: #000;
 }
-.hover:hover{font-size: 12px;}
 
-@keyframes scroll {
+
+@keyframes marquee {
   from {
-    transform: translateX(0%);
+    transform: translateX(50%);
   }
   to {
     transform: translateX(-100%);
   }
-}
+} */
+ .scrow {
+  background-color: #000;
+ }
+ 
+.bold {font-weight: bold;}
+
+.hover:hover{font-size: 12px;}
+
 
 /* animated text */
 .aboutW {
@@ -35,14 +43,13 @@
   -webkit-text-stroke: 1px white;
   font-size: 2rem;
   font-weight: bold;
+  margin-right: 10px;
 }
 .aboutB {
   color: white;
   font-size: 2rem;
   font-size: bold;
-}
-.span {
-  padding: 0px 10px;
+  margin-right: 10px;
 }
 
 .img1 {
@@ -71,3 +78,4 @@
 .link {text-decoration: none;}
 .certificate {width: 100%}
 .awardPlacement {width: 30px; height: 30px; border-radius: 50%; margin-right: 10px;}
+.hello {color: 'red'}

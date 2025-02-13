@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { easeInOut, motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
@@ -9,6 +9,7 @@ const Skills = () => {
   const [progress1, setProgress1] = useState(0);
   const [progress2, setProgress2] = useState(0);
   const [progress3, setProgress3] = useState(0);
+  
   const [refP, viewP] = useInView({triggerOnce: false});
   const [refP1, viewP1] = useInView({triggerOnce: false});
   const [refP2, viewP2] = useInView({triggerOnce: false});
@@ -77,15 +78,15 @@ const Skills = () => {
     threshold: 0.5
   })
 
-  const [ref3, view3] = useInView({
-    triggerOnce: false,
-    threshold: 0.5
-  })
+  // const [ref3, view3] = useInView({
+  //   triggerOnce: false,
+  //   threshold: 0.5
+  // })
 
-  const [ref4, view4] = useInView({
-    triggerOnce: false,
-    threshold: 0.5
-  })
+  // const [ref4, view4] = useInView({
+  //   triggerOnce: false,
+  //   threshold: 0.5
+  // })
  
   return (
     <>

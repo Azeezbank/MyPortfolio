@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { motion, useInView } from 'framer-motion';
 import CountUp from "react-countup";
 import headshot from '../assets/my_headshot.png'
@@ -34,32 +34,37 @@ const AnimatedCount = ({start, end, duration, label}) => {
   return (
     <>
       <div className="scrow">
-        <marquee>
           {" "}
+          <marquee>
           <h1 id="about" className="scrowI">
             <span className="aboutW span">ABOUT ME</span>{" "}
+             <span className="aboutB span">ABOUT ME</span>
+             <span className="aboutW span">ABOUT ME</span>
             <span className="aboutB span">ABOUT ME</span>
             <span className="aboutW span">ABOUT ME</span>
             <span className="aboutB span">ABOUT ME</span>
+            <span className="aboutW span">ABOUT ME</span>
+             <span className="aboutB span">ABOUT ME</span>
             <span className="aboutW span">ABOUT ME</span>
             <span className="aboutB span">ABOUT ME</span>
             <span className="aboutW span">ABOUT ME</span>
           </h1>
-        </marquee>
+          </marquee>
       </div>
+      
 
       <div className="container-fluid">
         <div className="row aboutt pt-5 pb-5 ps-2 pe-2">
           <div className="col-sm-6 pt-3">
             <img
               className="img2"
-              src='https://github.com/Azeezbank/Images/raw/main/my_headshot.png'
+              src={headshot}
               alt="profile"
             />
           </div>
           <div className="col-sm-6 pt-3">
             <p>
-              <b>Hello! I’m Bankole Azeez</b>, a full-stack software developer from Nigeria. With extensive experience
+              <span className="hello"><b >Hello! I’m Bankole Azeez</b>,</span> <br /> A full-stack software developer from Nigeria. With extensive experience
               in  building responsive, high-quality websites and applications, i'm passionate about crafting solution that 
               are both functional and visually engaging. As a lifelong learner, i'm always exploring new technologies to 
               enhance my skills, including expertise in wordpress development. Let's connect-i'd love to share what makes my approach unique.
