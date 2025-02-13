@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView } from 'framer-motion';
 import CountUp from "react-countup";
+import headshot from '../assets/my_headshot.png'
 
 
 const LoadingAbout = () => {
