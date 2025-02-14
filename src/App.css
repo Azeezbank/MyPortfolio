@@ -4,33 +4,10 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Times New Roman', Times, serif;
-  overflow-x: hidden;
 }
-/* .scrow {
-  height: 70px;
-  background-color: #000;
-  overflow: hidden;
-}
-.scrowI {
-  padding-top: 10px;
-  white-space: nowrap;
-  display: inline-block;
-  animation: marquee 20s linear infinite;
+.scrow {
   background-color: #000;
 }
-
-
-@keyframes marquee {
-  from {
-    transform: translateX(50%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-} */
- .scrow {
-  background-color: #000;
- }
  
 .bold {font-weight: bold;}
 
