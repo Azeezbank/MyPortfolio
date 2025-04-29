@@ -1,15 +1,15 @@
 import React from "react";
 import plpCert from "../assets/Screenshot (2).png";
 import altCert from "../assets/Screenshot (4).png";
+import Marquee from "react-fast-marquee";
 
 // award section component
 const Awards = () => {
   return (
     <>
       <div className="container-fluid bg-danger text-light text-center">
-        <marquee>
+        <Marquee>
           {" "}
-          <h1 className="scrowI">
             <span className="aboutW span">AWARDS</span>
             <span className="aboutB span">AWARDS</span>
             <span className="aboutW span">AWARDS</span>
@@ -20,10 +20,8 @@ const Awards = () => {
             <span className="aboutB span">AWARDS</span>
             <span className="aboutW span">AWARDS</span>
             <span className="aboutB span">AWARDS</span>
-            <span className="aboutW span">AWARDS</span>
-            <span className="aboutB span">AWARDS</span>
-          </h1>
-        </marquee>
+        </Marquee>
+
       </div>
 
       <div className="container-fluid bg-dark text-light text-center pt-5">

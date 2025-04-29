@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Marquee from "react-fast-marquee";
 
 
 // services section
@@ -20,12 +21,10 @@ const Services = () => {
   return (
     <>
       <div className="container-fluid bg-danger text-light text-center">
-        <marquee>
+        <Marquee>
           {" "}
-          <h1 id="service" className="scrowI">
+          <h1>
             <span className="aboutW span">SERVICES</span>{" "}
-            <span className="aboutB span">ABOUT ME</span>
-            <span className="aboutW span">SERVICES</span>
             <span className="aboutB span">SERVICES</span>
             <span className="aboutW span">SERVICES</span>
             <span className="aboutB span">SERVICES</span>
@@ -33,11 +32,8 @@ const Services = () => {
             <span className="aboutB span">SERVICES</span>
             <span className="aboutW span">SERVICES</span>
             <span className="aboutB span">SERVICES</span>
-            <span className="aboutW span">SERVICES</span>
-            <span className="aboutB span">SERVICES</span>
-            <span className="aboutW span">SERVICES</span>
           </h1>
-        </marquee>
+        </Marquee>
       </div>
 
       <div className="container-fluid bg-light" style={backgroundImageStyle}>

@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { motion, useInView } from 'framer-motion';
 import CountUp from "react-countup";
-import headshot from '../assets/my_headshot.png'
+import headshot from '../assets/my_headshot.png';
+import Marquee from 'react-fast-marquee';
 
 
 const LoadingAbout = () => {
@@ -35,27 +36,24 @@ const AnimatedCount = ({start, end, duration, label}) => {
     <>
       <div className="scrow">
           {" "}
-          <marquee>
-          <h1 id="about" className="scrowI">
-            <span className="aboutW span">ABOUT ME</span>{" "}
-             <span className="aboutB span">ABOUT ME</span>
-             <span className="aboutW span">ABOUT ME</span>
-            <span className="aboutB span">ABOUT ME</span>
-            <span className="aboutW span">ABOUT ME</span>
-            <span className="aboutB span">ABOUT ME</span>
-            <span className="aboutW span">ABOUT ME</span>
-             <span className="aboutB span">ABOUT ME</span>
-            <span className="aboutW span">ABOUT ME</span>
-            <span className="aboutB span">ABOUT ME</span>
-            <span className="aboutW span">ABOUT ME</span>
-          </h1>
-          </marquee>
+          <Marquee speed={90} gradient={false}>
+          <span className="aboutW">ABOUT ME</span>
+          <span className="aboutB">ABOUT ME</span>
+          <span className="aboutW">ABOUT ME</span>
+          <span className="aboutB">ABOUT ME</span>
+          <span className="aboutW">ABOUT ME</span>
+          <span className="aboutB">ABOUT ME</span>
+          <span className="aboutW">ABOUT ME</span>
+          <span className="aboutB">ABOUT ME</span>
+          <span className="aboutW">ABOUT ME</span>
+          <span className="aboutB">ABOUT ME</span>
+          </Marquee>
       </div>
       
 
       <div className="container-fluid">
         <div className="row aboutt pt-5 pb-5 ps-2 pe-2">
-          <div className="col-sm-6 pt-3">
+          <div className="col-sm-6 pt-3 img2-container">
             <img
               className="img2"
               src={headshot}

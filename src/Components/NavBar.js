@@ -13,7 +13,7 @@ const NavBar = () => {
             style={{ fontSize: "2.0rem", fontWeight: "bold" }}
             href="#"
           >
-            BankyTech.
+            &lt;BankyTech./&gt;
           </a>
           <button
             className="navbar-toggler bg-danger"
