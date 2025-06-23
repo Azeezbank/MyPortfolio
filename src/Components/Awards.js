@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 const Awards = () => {
   return (
     <>
-      <div className="container-fluid bg-danger text-light text-center">
+      <div className="full-width bg-danger text-light text-center">
         <Marquee>
           {" "}
             <span className="aboutW span">AWARDS</span>
@@ -24,7 +24,7 @@ const Awards = () => {
 
       </div>
 
-      <div className="container-fluid bg-dark text-light text-center pt-5">
+      <div className="full-width bg-dark text-light text-center pt-5">
         <div className="row p-5 pb-5">
           <div className="col-sm-4">
             <h5>Site Of The Day</h5>
@@ -74,7 +74,7 @@ const Awards = () => {
         </div>
       </div>
 
-      <div className="container-fluid bg-light pb-5 pt-5">
+      <div className="full-width bg-light pb-5 pt-5">
         <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
           <i
             className="bi bi-mortarboard"

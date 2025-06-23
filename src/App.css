@@ -4,6 +4,27 @@
   padding: 0px;
   margin: 0px;
   font-family: "Times New Roman", Times, serif;
+} 
+.animation-div {
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  position: relative;
+}
+.full-width {
+  width: 100vw;
+}
+.animation {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+}
+.page-b {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 3;
 }
 .scrow {
   background-color: #000;
@@ -88,7 +109,6 @@
   padding: 5px;
   border: 5px solid transparent;
   border-top: 5px solid #00f0ff;
-  /* border-radius: 50%; */
   animation: spin 3s linear infinite, glow 3s ease-in-out infinite;
   align-items: center;
   box-shadow: 0 0 10px #00f0ff;
@@ -96,6 +116,13 @@
   justify-content: center;
   align-items: center;
 }
+.star-color {
+  color: gold;
+}
+.carow {
+  border-radius: 8px;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -128,24 +155,6 @@
   transform: scale(1.1);
 }
 
-/* carousel small screens */
-@media (max-width: 750px) {
-  .img {
-    width: 40px;
-  }
-  .person {
-    font-size: 10px;
-  }
-  .star {
-    font-size: 8px;
-  }
-  .comment {
-    font-size: 11px;
-  }
-  blockquote {
-    font-size: 10px;
-  }
-}
 .link {
   text-decoration: none;
 }
@@ -160,4 +169,57 @@
 }
 .hello {
   color: "red";
+}
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial span {
+  background-color: #f00;
+  width: 50px;
+  height: 2px;
+}
+.testimonial h5 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-style: italic;
+  margin: 20px 10px;
+}
+
+/* small screen size */
+@media (max-width: 750px) {
+ 
+  .carow {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  .cam1, .cam3 {
+    width: 50%;
+    z-index: -3;
+  }
+  .cam2 {
+    width: 90%;
+    height: 60%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .star-color {
+    font-size: 15px;
+  }
+  .cauro-text {
+    font-size: 12px;
+  }
+}
+
+/* large screen */
+@media (min-width: 750px) {
+  .carow {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    width: 100%;
+  }
 }

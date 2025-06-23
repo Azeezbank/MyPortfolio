@@ -51,7 +51,7 @@ const AnimatedCount = ({start, end, duration, label}) => {
       </div>
       
 
-      <div className="container-fluid">
+      <div className="">
         <div className="row aboutt pt-5 pb-5 ps-2 pe-2">
           <div className="col-sm-6 pt-3 img2-container">
             <img

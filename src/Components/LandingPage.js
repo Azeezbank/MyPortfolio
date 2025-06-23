@@ -1,7 +1,9 @@
-import React from "react";
+// import React from "react";
 import "../App.css";
 import { easeIn, easeInOut, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import animation from '../assets/dark_blue_bg_3.mp4';
+
 
 // Home page section
 const LandingPage = () => {
@@ -17,9 +19,21 @@ const LandingPage = () => {
 
   return (
     <>
+    <div className="animation-div">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="animation"
+      >
+        <source src={animation} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
       <div
-        className="container-fluid p-5 first bg-secondary"
-        style={{ height: "700px" }}
+        className="p-5 bg-secondary page-b"
+        style={{ height: "735px" }}
       >
     
         <div className="dev-dots">

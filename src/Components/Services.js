@@ -20,7 +20,7 @@ const Services = () => {
   };
   return (
     <>
-      <div className="container-fluid bg-danger text-light text-center">
+      <div className="full-width bg-danger text-light text-center">
         <Marquee>
           {" "}
           <h1>
@@ -36,7 +36,7 @@ const Services = () => {
         </Marquee>
       </div>
 
-      <div className="container-fluid bg-light" style={backgroundImageStyle}>
+      <div className="full-width bg-light" style={backgroundImageStyle}>
         <div
           className="pt-5 pb-5 ps-2 pe-2 text-dark"
           style={{
@@ -109,7 +109,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="container-fluid pt-5 pb-5 ps-2 pe-2 bg-light">
+      <div className="full-width pt-5 pb-5 ps-2 pe-2 bg-light">
         <h2 className="pt-5 bold">USER CENTRIC DEVELOPMENT</h2>
         <div className="row p-2 pt-3">
           <div className="col-sm-6">
@@ -159,11 +159,6 @@ const Services = () => {
             />
           </div>
         </div>
-      </div>
-
-      <div className="container-fluid p-5">
-        <h3 className="bold">THOUGHTFUL BRANDING</h3>
-        <div className="row p-2"></div>
       </div>
     </>
   );
