@@ -16,7 +16,7 @@ const NavBar = () => {
             &lt;BankyTech./&gt;
           </a>
           <button
-            className="navbar-toggler bg-danger"
+            className="navbar-toggler bg-primary"
             type=" button"
             data-bs-toggle="collapse"
             data-bs-target="#navContent"

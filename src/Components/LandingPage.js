@@ -32,10 +32,10 @@ const LandingPage = () => {
       </video>
     </div>
       <div
-        className="p-5 bg-secondary page-b"
+        className="p-5 page-b"
         style={{ height: "735px" }}
       >
-    
+    <div>
         <div className="dev-dots">
           <span className="span1"></span>
           <span className="span2"></span>
@@ -65,23 +65,26 @@ const LandingPage = () => {
           application with a focus on seamless user experience and efficient
           backend solutions.
         </motion.p>
-        <div className="flex">
-          <button className="btn bg-danger text-light p-3 m-2 hover">
+        <div className="flex ">
+          <button className="btn text-light p-3 me-2">
             <a
               style={{ textDecoration: "none", color: "#fff" }}
+              className="hover1 p-3 "
               href="https://www.linkedin.com/in/bankole-azeez-babatunde-9a59772a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             >
               <i className="bi bi-linkedin"></i> Follow
             </a>
           </button>
-          <button className="btn bg-dark text-light p-3 hover">
+          <button className="btn bg-dark text-light p-3">
             <a
               style={{ textDecoration: "none", color: "#fff" }}
+              className="p-1 hover2"
               href="mailto:bankoleazeezb98@gmail.com"
             >
               Hire Me..
             </a>
           </button>
+        </div>
         </div>
       </div>
     </>

@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 const Awards = () => {
   return (
     <>
-      <div className="full-width bg-danger text-light text-center">
+      <div className="bg-primary text-light text-center">
         <Marquee>
           {" "}
             <span className="aboutW span">AWARDS</span>
@@ -74,20 +74,21 @@ const Awards = () => {
         </div>
       </div>
 
-      <div className="full-width bg-light pb-5 pt-5">
-        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+      <div className="full-width bg-black">
+      <div className="text-white pb-5 pt-5 ps-3 pe-3">
+        <h2 className="fw-bold ps-5 pe-5 pt-5 pb-1 text-primary text-center">
           <i
-            className="bi bi-mortarboard"
-            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
+            className="bi bi-mortarboard text-primary"
+            style={{ fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
           My Education
         </h2>
-        <div className="shadow-sm ms-2 me-2 mb-5 p-3">
-          <div className="row mt-4">
-            <div className="col-sm-6 pt-2">
-              <p className="text-primary">2017 - 2023</p>
+        
+          <div className="mt-4 bg-dark grid-edu-container">
+            <div>
+              <p>2017 - 2023</p>
             </div>
-            <div className="col-sm-6">
+            <div>
               <h5 className="bold">Bachelor degree</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.xZmecZfOx49ESLKn8F0YjwHaEo?rs=1&pid=ImgDetMain"/>
@@ -95,10 +96,10 @@ const Awards = () => {
               </div>
             </div>
           </div>
-        </div>
+        
 
         {/* license and certification */}
-        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
+        <h2 id="edu" className="fw-bold pt-5 pb-1">
           <i
             className="bi bi-mortarboard"
             style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
@@ -106,9 +107,9 @@ const Awards = () => {
           Licenses and certification
         </h2>
 
-        <div className="row mt-4">
-          <div className="col-sm-6 pt-2">
-            <div className="shadow-sm ms-2 me-2 mb-5 p-3">
+        <div className="grid-cert mt-4">
+          
+            <div className="shadow-sm ms-2 me-2 mb-5">
               <h5 className="bold">FullStack development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
@@ -117,10 +118,10 @@ const Awards = () => {
               <p className="text-primary">Issued Jan 2024</p>
               <img className="certificate" src={plpCert} alt="certificate" />
             </div>
-          </div>
+          
 
-          <div className="col-sm-6">
-            <div className="shadow-sm ms-2 me-2 mb-5 p-3">
+          
+            <div className="shadow-sm ms-2 me-2 mb-5">
               <h5 className="bold">Front-End Web Development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.SL4wHW9HIiv2ObA6CqdV4gAAAA?rs=1&pid=ImgDetMain"/>
@@ -129,7 +130,7 @@ const Awards = () => {
               <p className="text-primary">Issued Jan 2024</p>
               <img className="certificate" src={altCert} alt="certificate" />
             </div>
-          </div>
+          
         </div>
 
         <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
@@ -282,6 +283,7 @@ const Awards = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
