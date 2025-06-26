@@ -52,7 +52,7 @@ const LoadingAbout = () => {
 
 
       <div className="full-width bg-black">
-        <div className="text-white pt-5 pb-5 ps-5 pe-5 ">
+        <div className="text-white pt-5 pb-5 ps-3 pe-3 ">
           <div className="grid-about">
             <div className="pt-3 img2-container">
               <img
