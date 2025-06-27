@@ -51,7 +51,7 @@ const Contact = () => {
         <div className="container">
           <div id="accordion">
             <div className="card">
-              <div className="card-header bg-danger bold">
+              <div className="card-header bg-primary bold">
                 <a
                   style={{ color: "#fff", fontWeight: "bold" }}
                   className="btn"
@@ -75,7 +75,7 @@ const Contact = () => {
             </div>
 
             <div className="card mt-1">
-              <div className="card-header bg-danger">
+              <div className="card-header bg-primary">
                 <a
                   style={{ color: "#fff", fontWeight: "bold" }}
                   className="btn"
@@ -96,7 +96,7 @@ const Contact = () => {
             </div>
 
             <div className="card mt-1">
-              <div className="card-header bg-danger">
+              <div className="card-header bg-primary">
                 <a
                   style={{ color: "#fff", fontWeight: "bold" }}
                   className="btn"
@@ -118,7 +118,7 @@ const Contact = () => {
           </div>
 
           <div className="card mt-1">
-            <div className="card-header bg-danger">
+            <div className="card-header bg-primary">
               <a
                 style={{ color: "#fff", fontWeight: "bold" }}
                 className="btn"
@@ -163,7 +163,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <input
                   id="name"
-                  className="form-control bg-danger text-light mt-1"
+                  className="form-control bg-primary text-light mt-1"
                   type="text"
                   placeholder="Your Name"
                   required
@@ -172,7 +172,7 @@ const Contact = () => {
               <div className="col-sm-6">
                 <input
                   id="email"
-                  className="form-control bg-danger text-light mt-1"
+                  className="form-control bg-primary text-light mt-1"
                   type="email"
                   placeholder="Your Mail"
                   required
@@ -182,7 +182,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-sm-12">
                 <textarea
-                  className="form-control mt-3 mb-3 bg-danger"
+                  className="form-control mt-3 mb-3 bg-primary"
                   rows={5}
                   placeholder="Your Message"
                   value={text}
@@ -196,7 +196,7 @@ const Contact = () => {
                 <input
                   onClick={handleSubmit}
                   type="submit"
-                  className="btn form-control bg-danger"
+                  className="btn form-control bg-primary"
                   value="Send"
                 />
               </div>

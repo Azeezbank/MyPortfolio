@@ -99,17 +99,17 @@ const Awards = () => {
         
 
         {/* license and certification */}
-        <h2 id="edu" className="fw-bold pt-5 pb-1">
+        <h2 id="edu" className="fw-bold pt-5 text-primary text-center">
           <i
-            className="bi bi-mortarboard"
-            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
+            className="bi bi-mortarboard text-primary"
+            style={{ fontSize: "50px", fontWeight: "bold" }}
           ></i>{" "}
           Licenses and certification
         </h2>
 
         <div className="grid-cert mt-4">
           
-            <div className="shadow-sm ms-2 me-2 mb-5">
+            <div className="shadow-sm ms-2 me-2 mb-5 cert-bg bg-dark">
               <h5 className="bold">FullStack development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK?rs=1&pid=ImgDetMain"/>
@@ -121,7 +121,7 @@ const Awards = () => {
           
 
           
-            <div className="shadow-sm ms-2 me-2 mb-5">
+            <div className="shadow-sm ms-2 me-2 mb-5 cert-bg bg-dark">
               <h5 className="bold">Front-End Web Development</h5>
               <div className="d-flex">
               <img className="awardPlacement" src="https://th.bing.com/th/id/OIP.SL4wHW9HIiv2ObA6CqdV4gAAAA?rs=1&pid=ImgDetMain"/>
@@ -133,17 +133,14 @@ const Awards = () => {
           
         </div>
 
-        <h2 id="edu" className="fw-bold ps-5 pe-5 pt-5 pb-1">
-          <i
-            className="bi bi-file-earmark-fill"
-            style={{ color: "black", fontSize: "50px", fontWeight: "bold" }}
-          ></i>{" "}
-          Certifications
-        </h2>
+        <h3 id="edu" className="fw-bold ps-5 pe-5 pt-5 text-primary cert-line">
+         <span></span>
+          CERTIFICATION
+        </h3>
         <div className="shadow-sm me-2 ms-2 mb-5 p-3">
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
-              <p className="text-primary">2024 - Present</p>
+              <p>2024 - 2025</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Backend Courses</h5>
@@ -156,7 +153,7 @@ const Awards = () => {
 
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
-              <p className="text-primary">2023 - 2024</p>
+              <p>2023 - 2024</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Database courses</h5>
@@ -169,7 +166,7 @@ const Awards = () => {
 
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6 pt-2">
-              <p className="text-primary">2023 - 2024</p>
+              <p>2022 - 2023</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Frontend courses</h5>
@@ -182,7 +179,7 @@ const Awards = () => {
 
           <div className="row mt-4 border-bottom">
             <div className="col-sm-6">
-              <p className="text-primary">2020 - 2021</p>
+              <p>2020 - 2021</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">WordPress course</h5>
@@ -195,7 +192,7 @@ const Awards = () => {
 
           <div className="row mt-4">
             <div className="col-sm-6">
-              <p className="text-primary">2019 - 2022</p>
+              <p>2019 - 2022</p>
             </div>
             <div className="col-sm-6">
               <h5 className="bold">Programming courses</h5>
@@ -208,7 +205,7 @@ const Awards = () => {
         </div>
 
         <h2 id="experience" className="fw-bold ps-5 pe-5 pt-5 pb-1">
-          <i className="bi bi-briefcase" style={{ fontSize: "50px" }}></i>{" "}
+          <i className="bi bi-briefcase" style={{ fontSize: "25px" }}></i>{" "}
           Experience
         </h2>
 

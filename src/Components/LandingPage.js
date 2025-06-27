@@ -41,7 +41,7 @@ const LandingPage = () => {
           <span className="span2"></span>
           <span className="span3"></span>
           <div className="d-flex">
-          <h5>&lt; &gt; Developer.js</h5>
+          <h5 style={{fontFamily: "sans-serif" }}>&lt; &gt; Developer.js</h5>
           </div>
         </div>
   

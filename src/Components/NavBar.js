@@ -8,13 +8,15 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-md bg-light fixed-top">
         <div className="container-fluid">
+          <h3 className="banktech">
           <a
-            className="navbar-brand"
-            style={{ fontSize: "2.0rem", fontWeight: "bold" }}
+            className="navbar-brand text-primary"
+            style={{ fontSize: "2.0rem", fontWeight: "bold", fontFamily: "sans-serif" }}
             href="#"
           >
             &lt;BankyTech./&gt;
           </a>
+          </h3>
           <button
             className="navbar-toggler bg-primary"
             type=" button"
@@ -56,7 +58,7 @@ const NavBar = () => {
                 </a>
               </li>
               <Link to="/Contact">
-                <button className="btn btn-dark rounded-pill">
+                <button className="btn btn-primary rounded-pill">
                   LET'S TALK
                 </button>
               </Link>
