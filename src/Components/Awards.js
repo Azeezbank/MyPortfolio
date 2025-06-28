@@ -2,6 +2,13 @@ import React from "react";
 import plpCert from "../assets/Screenshot (2).png";
 import altCert from "../assets/Screenshot (4).png";
 import Marquee from "react-fast-marquee";
+import bankysub from '../assets/Screenshot 2025-06-28 131225.png';
+import react from '../assets/react-vite.png';
+import github from '../assets/github.png';
+import ts_s from '../assets/ts-js.png';
+import html from '../assets/html-css.png';
+import js from '../assets/js.png';
+import node_expres from  '../assets/node.png';
 
 // award section component
 const Awards = () => {
@@ -133,9 +140,9 @@ const Awards = () => {
           
         </div>
 
-        <h3 id="edu" className="fw-bold ps-5 pe-5 pt-5 text-primary cert-line">
+        <h3 id="edu" className="ps-5 pe-5 pt-5 text-primary cert-line">
          <span></span>
-          CERTIFICATION
+          Certification
         </h3>
         <div className="shadow-sm me-2 ms-2 mb-5 p-3">
           <div className="row mt-4 border-bottom">
@@ -203,35 +210,39 @@ const Awards = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <h2 id="experience" className="fw-bold ps-5 pe-5 pt-5 pb-1">
-          <i className="bi bi-briefcase" style={{ fontSize: "25px" }}></i>{" "}
-          Experience
+      <div className="full-width bg-dark project">
+        <h2 id="experience" className="project-span">
+          <span></span>
+          <h2>Portfolio</h2>
+          <span></span>
         </h2>
+        <h4 className="text-white text-center">Look At My Potfolio And Give Me Your Feedback.</h4>
 
-        <div className="experience pt-2 pb-5 ps-2 pe-2">
-          <div className="row pb-3">
-            <div className="col-sm-4">
+        <div className="experience pb-5">
+          <div className="grid-port pb-3">
+            <div>
               <div className="card mb-3 mt-2">
-                <div className="card-header text-primary">
-                  <h3 className="bold">Full-stack Developer</h3>
-                  <h5 className="bold">Plp | 2024 - Present</h5>
+                <div className="card-header text-white bg-primary">
+                  <h3 className="bold">BankyConnect</h3>
+                  <h5 className="bold">FullStack Project</h5>
                 </div>
                 <div className="card-body">
-                  <p>
-                    Developed complex web applications using modern frameworks
-                    and best practices. Collaborated with cross-functional teams
-                    to deliver high-quality, user-centric solution.
-                  </p>
+                  <img src={bankysub} alt="Bankysub" className="prog-img"/>
                 </div>
-                <div className="card-footer">
-                  <a className="card-link">
-                    Project <i className="bi bi-link-45deg"></i>
+                <div className="card-footer bg-primary">
+                  <img src={react} alt="react" className="pro-foot-img me-2" />
+                  <img src={ts_s} alt="ts-js" className="pro-foot-img me-2" />
+                  <img src={node_expres} alt="node js" className="pro-foot-img me-2" />
+                  <img src={github} alt="github" className="pro-foot-img me-2" />
+                  <a href="https://bankysub.vercel.app/" className="card-link text-white">
+                    Preview Live<i className="bi bi-link-45deg"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-sm-4">
+            <div>
               <div className="card mb-3 mt-2">
                 <div className="card-header text-primary">
                   <h3 className="bold">Frontend developer </h3>
@@ -256,7 +267,7 @@ const Awards = () => {
               </div>
             </div>
 
-            <div className="col-sm-4">
+            <div>
               <div className="card mt-2">
                 <div className="card-header text-primary">
                   <h3 className="bold">Database </h3>
