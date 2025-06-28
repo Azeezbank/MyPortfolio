@@ -306,7 +306,7 @@
   }
   .grid-port {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     gap: 15px;
   }
 }
@@ -340,7 +340,7 @@
   }
   .grid-port {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     gap: 20px
   }
 }
