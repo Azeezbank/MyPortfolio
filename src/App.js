@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import NavBar from "./Components/NavBar.js";
 import LandingPage from "./Components/LandingPage.js";
 import LoadingAbout from "./Components/LoadingAbout.js";
-import Skills from "./Components/Skills.js";
+import Skills from "./Components/Skill.js";
 import Awards from "./Components/Awards.js";
-import Services from "./Components/Services.js";
+import Progress from './Components/Progress.js';
 import Testimonial from "./Components/Testimonial.js";
 import LetsTalk from "./Components/LetsTalk.js";
 import Contact from "./Components/Contact.js";
@@ -26,7 +26,7 @@ const App = () => {
                 <LoadingAbout />
                 <Skills />
                 <Awards />
-                <Services />
+                <Progress />
                 <Testimonial />
                 <LetsTalk />
               </>

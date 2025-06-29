@@ -206,13 +206,13 @@
 }
 
 .testimonial span {
-  background-color: #f00;
-  width: 50px;
+  background-color: #0d6efd;
+  width: 70px;
   height: 2px;
 }
 
 .testimonial h5 {
-  color: #fff;
+  color: #0d6efd;
   letter-spacing: 3px;
   font-style: italic;
   margin: 20px 10px;
@@ -222,6 +222,12 @@
   border: 1px solid #0d6efd;
   padding: 15px;
   border-radius: 8px;
+}
+.developer1 {
+   border: 1px solid #0d6efd;
+  padding: 15px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
 }
 
 .cv-down {
@@ -305,6 +311,57 @@
   background-color: #fff;
   border-radius: 50%;
 }
+.more-proj {
+  background-color: transparent;
+  border: 1px solid #0d6efd;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.more-proj1 {
+  background-color: #0d6efd;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: -155px;
+}
+.need-more-p {
+  color: #fff;
+  margin-top: -100px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.more-git {
+  margin-left: 65px;
+}
+.more-git img {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.more-git i {
+  font-size: 12px;
+  color: #fff;
+}
+.grid-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.badgeT {
+  display: flex;
+  align-items: center;
+}
+.centric-line {
+  border-bottom: 1px solid grey;
+}
+.centric-line:hover {
+  border-bottom: 1px solid #0d6efd;
+}
 
 /* small screen size */
 @media (max-width: 750px) {
@@ -359,6 +416,16 @@
     display: grid;
     grid-template-columns: 100%;
     gap: 15px;
+  }
+
+  .cauro-text {
+    position: relative;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+  }
+  .centric-line {
+    margin-bottom: 20px;
   }
 }
 

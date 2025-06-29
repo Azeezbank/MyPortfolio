@@ -361,6 +361,20 @@ const Awards = () => {
               </div>
             </div>
           </div>
+
+          <div className="d-flex justify-content-center">
+            <div className="mt-5 mb-5">
+              <span className="more-proj d-flex"></span>
+              <span className="more-proj1 d-flex"></span>
+              <p className="need-more-p">Need More?</p>
+              <div className="more-git">
+                <a href="https://github.com/Azeezbank" target="_blank">
+                <img src={github} alt="github" />
+                <i className="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

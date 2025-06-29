@@ -74,14 +74,14 @@ const LoadingAbout = () => {
             </div>
 
             
-              <div className=" bg-dark developer">
+              <div className=" bg-dark developer1">
                 <h3 className="hello text-primary">Passionate Coder</h3>
                 <p>
                   I thrive on the challenge of translating complex ideas into
                   functional, user-friendly web applications.
                 </p>
               </div>
-              <div className="bg-dark developer">
+              <div className="bg-dark developer1">
                 <h3 className="hello text-primary"> Creative Problem-solver </h3>
                 <p>
                   {" "}

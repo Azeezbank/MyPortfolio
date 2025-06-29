@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
 // skills section component
-const Skills = () => {
+const Skill = () => {
   const [progress, setProgress] = useState(0);
   const [progress1, setProgress1] = useState(0);
   const [progress2, setProgress2] = useState(0);
@@ -270,4 +270,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skill;

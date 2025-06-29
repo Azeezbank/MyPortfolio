@@ -1,10 +1,10 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import man1 from '../assets/man1-96b747a3.png';
 import man2 from '../assets/man2-cc1f3830.png';
 import man3 from '../assets/man3-3627602a.png';
+import Marquee from "react-fast-marquee";
 
 // testimonial section
 const Testimonial = () => {
@@ -32,7 +32,7 @@ const Testimonial = () => {
             <h3><i className="bi bi-star star-color"></i></h3>
           </div>
 
-          <h3 className="text-danger">Idris Abiodun</h3>
+          <h3 className="text-primary">Idris Abiodun</h3>
           <h6 className="text-light">Bussiness Owner</h6>
 
           <p className="cauro-text text-white">Working with Azeez was a game-changer. His attention to detail and ability to turn ideas into functional, user-friendly web apps is outstanding. Highly recommended!</p>
@@ -46,7 +46,7 @@ const Testimonial = () => {
             <h3><i className="bi bi-star star-color"></i></h3>
           </div>
 
-          <h3 className="text-danger">Ridwan Abiola</h3>
+          <h3 className="text-primary">Ridwan Abiola</h3>
           <h6 className="text-muted">Bussiness Owner</h6>
 
           <p className="cauro-text text-white">His full-stack expertise is top-notch. From frontend design to backend logic and database integration — everything was seamless and well-executed</p>
@@ -60,7 +60,7 @@ const Testimonial = () => {
             <h3><i className="bi bi-star star-color"></i></h3>
           </div>
 
-          <h3 className="text-danger">Ayomide Quadri</h3>
+          <h3 className="text-primary">Ayomide Quadri</h3>
           <h6 className="text-muted">Bussiness Owner</h6>
 
           <p className="cauro-text text-white">I was impressed by his creativity and professionalism. He not only built the features we asked for but also suggested better alternatives that improved user experience</p>
@@ -71,8 +71,8 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="full-width bg-danger text-light text-center">
-        <marquee>
+      <div className="bg-primary text-light text-center">
+        <Marquee>
           {" "}
           <h2 className="scrowI">
             <span className="aboutW span">TESTIMONIAL</span>
@@ -82,12 +82,8 @@ const Testimonial = () => {
             <span className="aboutW span">TESTIMONIAL</span>
             <span className="aboutB span">TESTIMONIAL</span>
             <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
-            <span className="aboutW span">TESTIMONIAL</span>
-            <span className="aboutB span">TESTIMONIAL</span>
-            <span className="aboutW span">TESTIMONIAL</span>
           </h2>
-        </marquee>
+        </Marquee>
       </div>
 
       <div className="full-width bg-black p-5">
