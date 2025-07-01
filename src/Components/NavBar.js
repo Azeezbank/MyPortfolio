@@ -29,7 +29,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navContent">
             <ul className="navbar-nav d-flex grid-nav">
               <hr />
-              <div className="d-flex">
+              <div className="nav_menu">
                 <Link to="/" className="link">
                   <li className="nav-item"><a className='nav-link'>HOME</a></li>
                 </Link>
@@ -55,9 +55,9 @@ const NavBar = () => {
                 </li>
 
               </div>
-              <div className="oya">
+              <div className="talk-btn">
                 <Link to="/Contact">
-                  <button className="btn btn-primary rounded-pill d-flex float-end" style={{fontFamily: "sans-serif"}}>
+                  <button className="btn btn-primary rounded-pill" style={{fontFamily: "sans-serif"}}>
                     LET'S TALK
                   </button>
                 </Link>

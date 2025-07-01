@@ -28,23 +28,23 @@ const Contact = () => {
       <NavBar />
       <div
         id="top"
-        className="container-fluid bg-secondary text-light text-center p-5"
+        className="full-width bg-dark text-light text-center p-5"
       >
-        <h1 style={{ paddingTop: "100px", fontWeight: "bold", color: "#000" }}>
+        <h1 style={{ paddingTop: "100px", fontWeight: "bold", color: "#fff" }}>
           HAVE SOMETHING TO ASK ?
         </h1>
-        <p style={{ color: "#000" }}>
+        <p style={{ color: "#fff" }}>
           {" "}
-          <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
+          <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
             <span>Home</span>
           </Link>{" "}
           <span>{'>'}</span> <span>Contact</span>
         </p>
-        <h5 style={{ paddingTop: "30px", color: "#000" }}>
+        <h5 style={{ paddingTop: "30px", color: "#fff" }}>
           You're launching a <br /> business and we <br /> can help you <br />{" "}
           make it look <br /> pretty.
         </h5>
-        <h3 style={{ paddingTop: "35px", color: "#000" }} className="bold">
+        <h3 style={{ paddingTop: "35px", color: "#fff" }} className="bold">
           Frequently Asked Quetions
         </h3>
 
