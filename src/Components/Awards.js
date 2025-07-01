@@ -40,8 +40,8 @@ const Awards = () => {
 
       </div>
 
-      <div className="full-width bg-dark text-light text-center pt-5">
-        <div className="row p-5 pb-5">
+      <div className="full-width bg-dark text-light text-center pt-5 pb-5">
+        <div className="row pt-3 pb-3">
           <div className="col-sm-4">
             <h5>Site Of The Day</h5>
           </div>
@@ -53,7 +53,7 @@ const Awards = () => {
           </div>
         </div>
 
-        <div className="row p-5 pt-3">
+        <div className="row pb-3 pt-3">
           <div className="col-sm-4">
             <h5>Best Business Model</h5>
           </div>
@@ -65,7 +65,7 @@ const Awards = () => {
           </dive>
         </div>
 
-        <div className="row p-5 pt-3">
+        <div className="row pb-3 pt-3">
           <div className="col-sm-4">
             <h5>Motion Graphics</h5>
           </div>
@@ -77,7 +77,7 @@ const Awards = () => {
           </div>
         </div>
 
-        <div className="row p-5 pt-3">
+        <div className="row pb-3 pt-3">
           <div className="col-sm-4">
             <h5>Video Design</h5>
           </div>
@@ -153,7 +153,7 @@ const Awards = () => {
             <span></span>
             Certification
           </h3>
-          <div className="shadow-sm me-2 ms-2 mb-5 p-3">
+          <div className="shadow-sm me-2 ms-2 mb-5 p-2">
             <div className="row mt-4 border-bottom">
               <div className="col-sm-6 pt-2">
                 <p>2024 - 2025</p>

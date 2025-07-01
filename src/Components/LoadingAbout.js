@@ -3,6 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import CountUp from "react-countup";
 import headshot from '../assets/my_headshot.png';
 import Marquee from 'react-fast-marquee';
+import { Typewriter } from 'react-simple-typewriter';
 
 
 const LoadingAbout = () => {
@@ -64,12 +65,14 @@ const LoadingAbout = () => {
             <div className="pt-3">
               <div className="developer bg-dark">
                 <h2 className="hello text-primary">Hello! <br /> I’m Bankole Azeez</h2>
-                <p>
-                  A full-stack software developer from Nigeria. With extensive experience
-                  in  building responsive, high-quality websites and applications, i'm passionate about crafting solution that
-                  are both functional and visually engaging. As a lifelong learner, i'm always exploring new technologies to
-                  enhance my skills, including expertise in wordpress development. Let's connect-i'd love to share what makes my approach unique.
-                </p>
+
+                  <Typewriter 
+                  words={["A full-stack software developer from Nigeria. With extensive experience in  building responsive, high-quality websites and applications, i'm passionate about crafting solution that are both functional and visually engaging. As a lifelong learner, i'm always exploring new technologies toenhance my skills, including expertise in wordpress development. Let's connect-i'd love to share what makes my approach unique."]}
+                  cursor
+                  cursorStyle='|'
+                  typeSpeed={10}
+                
+                  />
               </div>
             </div>
 

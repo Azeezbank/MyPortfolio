@@ -92,8 +92,7 @@ const Skill = () => {
     <>
       <div className="full-width bg-dark text-light text-center pt-5" style={{position: 'relative', overflow: 'hidden'}}>
         <motion.h2 className="text-center p-5 craft-head" ref={ref} initial={{x: 100, opacity: 0}} animate={{x: view ? 0 : 100, opacity: view? 1 : 0}} transition={{duration: 1}}>
-          I craft wonderful <br />
-          digital experiences for brands
+          I craft wonderful digital <br/> experiences for brands
         </motion.h2>
 
         <div className="row p-2 ">
