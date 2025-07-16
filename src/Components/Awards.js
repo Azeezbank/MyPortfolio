@@ -1,4 +1,3 @@
-import React from "react";
 import plpCert from "../assets/Screenshot (2).png";
 import altCert from "../assets/Screenshot (4).png";
 import Marquee from "react-fast-marquee";
@@ -18,6 +17,7 @@ import mysql from '../assets/mysql.jfif';
 import convertion from '../assets/convertion.png';
 import next from '../assets/nextjs.jpeg';
 import cutting_edge from '../assets/cutting-edge.png';
+import { motion } from "framer-motion";
 
 // award section component
 const Awards = () => {
@@ -92,15 +92,24 @@ const Awards = () => {
 
       <div className="full-width bg-black">
         <div className="text-white pb-5 pt-5 ps-3 pe-3">
-          <h2 className="fw-bold ps-5 pe-5 pt-5 pb-1 text-primary text-center">
-            <i
-              className="bi bi-mortarboard text-primary"
-              style={{ fontSize: "50px", fontWeight: "bold" }}
-            ></i>{" "}
-            My Education
-          </h2>
+          <div className="fw-bold ps-5 pe-5 pt-5 pb-1 text-white text-center education">
+            <motion.i
+              className="bi bi-mortarboard me-3"
+              style={{ fontSize: "40px", fontWeight: "bold" }}
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+            ></motion.i>
+            <motion.h2
+            initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+            >My Education</motion.h2>
+          </div>
 
-          <div className="mt-4 bg-dark grid-edu-container">
+          <div className="mt-4 bg-dark grid-edu-container me-3 ms-3">
             <div>
               <p>2017 - 2023</p>
             </div>
@@ -115,13 +124,22 @@ const Awards = () => {
 
 
           {/* license and certification */}
-          <h2 id="edu" className="fw-bold pt-5 text-primary text-center">
-            <i
-              className="bi bi-mortarboard text-primary"
-              style={{ fontSize: "50px", fontWeight: "bold" }}
-            ></i>{" "}
-            Licenses and certification
-          </h2>
+          <div id="edu" className="fw-bold pt-5 text-white text-center education">
+            <motion.i
+              className="bi bi-mortarboard me-3"
+              style={{ fontSize: "40px", fontWeight: "bold" }}
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+            ></motion.i>{" "}
+            <motion.h2
+            initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+            >Licenses and certification</motion.h2>
+          </div>
 
           <div className="grid-cert mt-4">
 
@@ -149,10 +167,12 @@ const Awards = () => {
 
           </div>
 
-          <h3 id="edu" className="ps-5 pe-5 pt-5 text-primary cert-line">
+          <motion.div
+          initial={{opacity: 0, y: 50}} whileInView={{opacity: 1, y: 0}} viewport={{once: false}} transition={{duration: 1, ease: "easeIn"}}
+          id="edu" className="ps-5 pe-5 pt-5 text-white cert-line">
             <span></span>
-            Certification
-          </h3>
+            <h4>Certification</h4>
+          </motion.div>
           <div className="shadow-sm me-2 ms-2 mb-5 p-2">
             <div className="row mt-4 border-bottom">
               <div className="col-sm-6 pt-2">
@@ -363,7 +383,9 @@ const Awards = () => {
           </div>
 
           <div className="d-flex justify-content-center">
-            <div className="mt-5 mb-5">
+            <motion.div
+            initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1}} viewport={{once: false}} transition={{duration: 1, ease: "easeIn"}}
+            className="mt-5 mb-5">
               <span className="more-proj d-flex"></span>
               <span className="more-proj1 d-flex"></span>
               <p className="need-more-p">Need More?</p>
@@ -373,7 +395,7 @@ const Awards = () => {
                 <i className="bi bi-arrow-up-right"></i>
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

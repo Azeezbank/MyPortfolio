@@ -7,15 +7,6 @@ import animation from '../assets/dark_blue_bg_3.mp4';
 
 // Home page section
 const LandingPage = () => {
-  const [ref1, view1] = useInView({
-    triggerOnce: false,
-    threshold: 0.5,
-  });
-
-  const [ref, view] = useInView({
-    triggerOnce: false,
-    threshold: 0.5,
-  });
 
   return (
     <>
@@ -47,18 +38,18 @@ const LandingPage = () => {
 
           <motion.h1
             style={{ paddingTop: "20px" }}
-            ref={ref1}
             initial={{ y: -50 }}
-            animate={{ y: view1 ? 0 : -50 }}
-            transition={{ duration: 1 }}
+            whileInView={{ y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1, ease: easeInOut }}
           >
             BUILD SOMETHING REMARKABLE
           </motion.h1>
 
           <motion.p
-            ref={ref}
             initial={{ scale: 0 }}
-            animate={{ scale: view ? 1 : 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: false }}
             transition={{ duration: 1, ease: easeInOut }}
           >
             Full-Stack developer skilled in creating dynamic responsive web

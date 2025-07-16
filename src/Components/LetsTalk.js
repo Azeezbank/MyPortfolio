@@ -46,7 +46,7 @@ const LetsTalk = () => {
 
       <div className="full-width bg-dark p-3 text-secondary d-flex justify-content-between">
         {/* <div className="flex"> */}
-        <p className="text-center text-white">&copy; Copyright 2024 Bankky. || Alright reserved <br/>
+        <p className="text-center text-secondary">&copy; Copyright 2024 Bankky. || Alright reserved <br/>
         Designed and Developed by Bankole Azeez Babatunde</p>
         <div className="badge bg-primary rounded">
           <a href="#">

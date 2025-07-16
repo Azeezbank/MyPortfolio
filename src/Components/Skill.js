@@ -68,25 +68,10 @@ const Skill = () => {
     threshold: 0.5
   })
 
-  const [ref1, view1] = useInView({
-    triggerOnce: false,
-    threshold: 0.1
-  })
-
   const [ref2, view2] = useInView({
     triggerOnce: false,
     threshold: 0.5
   })
-
-  // const [ref3, view3] = useInView({
-  //   triggerOnce: false,
-  //   threshold: 0.5
-  // })
-
-  // const [ref4, view4] = useInView({
-  //   triggerOnce: false,
-  //   threshold: 0.5
-  // })
  
   return (
     <>
@@ -97,7 +82,7 @@ const Skill = () => {
 
         <div className="row p-2 ">
           <div className="col-sm-4">
-            <motion.h2 className="pt-3 pb-2 soft-head" ref={ref1} initial={{y: 50}} animate={{y: view1? 0 : 50}} transition={{duration: 0.5, ease: "easeIn"}}>Soft Skills</motion.h2>
+            <motion.h2 className="pt-3 pb-2 soft-head" initial={{opacity: 0, scale: 0.2}} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: false}} transition={{duration: 1, ease: "easeIn"}}>Soft Skills</motion.h2>
             <div className="text-start">
               <div className="row">
                 <div className="col-sm-4 pt-4">
